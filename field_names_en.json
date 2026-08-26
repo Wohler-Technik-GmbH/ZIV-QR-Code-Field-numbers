@@ -46,40 +46,108 @@
     }
   },
   "section_title": {
-    "1": "Device information",
-    "2": "Customer data",
-    "3": "Fireplace / project data",
-    "4": "Boiler data",
-    "5": "Fuel data",
-    "6": "Inspector data",
-    "7": "Measurement on oil/gas boiler",
-    "8": "Measurement on solid fuel boiler",
-    "9": "Negative pressure test",
-    "10": "General heating check",
-    "11": "Visual inspection",
-    "20": "Load test gas pipes",
-    "21": "Leak test gas pipes",
-    "22": "Serviceability test gas pipes",
-    "23": "Leak test drinking water pipes",
-    "24": "Load test drinking water pipes",
-    "25": "Pressure test drinking water pipes",
-    "26": "Strength test press-fit connections drinking water",
-    "27": "Leak test wastewater pipes",
-    "28": "Leak test heating/cooling systems (air/inert gas)",
-    "29": "Load test heating/cooling systems (air/inert gas)",
-    "30": "Pressure test heating/cooling systems (water)",
-    "31": "Strength test liquefied gas systems",
-    "32": "Leak test liquefied gas systems",
-    "33": "Refrigeration circuit",
-    "34": "Leak test refrigeration system",
-    "35": "Vacuum test refrigeration system",
-    "36": "Volume measurement",
-    "37": "Controller test",
-    "50": "UNI 7129",
-    "51": "UNI 11528",
-    "52": "UNI 11137",
-    "53": "Leak test gas valve",
-    "54": "Leak test flue gas ducts"
+    "1": {
+      "description": "Device information"
+    },
+    "2": {
+      "description": "Customer data"
+    },
+    "3": {
+      "description": "Fireplace / project data"
+    },
+    "4": {
+      "description": "Boiler data"
+    },
+    "5": {
+      "description": "Fuel data"
+    },
+    "6": {
+      "description": "Inspector data"
+    },
+    "7": {
+      "description": "Measurement on oil/gas boiler"
+    },
+    "8": {
+      "description": "Measurement on solid fuel boiler"
+    },
+    "9": {
+      "description": "Negative pressure test"
+    },
+    "10": {
+      "description": "General heating check"
+    },
+    "11": {
+      "description": "Visual inspection"
+    },
+    "20": {
+      "description": "Load test gas pipes"
+    },
+    "21": {
+      "description": "Leak test gas pipes"
+    },
+    "22": {
+      "description": "Serviceability test gas pipes"
+    },
+    "23": {
+      "description": "Leak test drinking water pipes"
+    },
+    "24": {
+      "description": "Load test drinking water pipes"
+    },
+    "25": {
+      "description": "Pressure test drinking water pipes"
+    },
+    "26": {
+      "description": "Strength test press-fit connections drinking water"
+    },
+    "27": {
+      "description": "Leak test wastewater pipes"
+    },
+    "28": {
+      "description": "Leak test heating/cooling systems (air/inert gas)"
+    },
+    "29": {
+      "description": "Load test heating/cooling systems (air/inert gas)"
+    },
+    "30": {
+      "description": "Pressure test heating/cooling systems (water)"
+    },
+    "31": {
+      "description": "Strength test liquefied gas systems"
+    },
+    "32": {
+      "description": "Leak test liquefied gas systems"
+    },
+    "33": {
+      "description": "Refrigeration circuit"
+    },
+    "34": {
+      "description": "Leak test refrigeration system"
+    },
+    "35": {
+      "description": "Vacuum test refrigeration system"
+    },
+    "36": {
+      "description": "Volume measurement"
+    },
+    "37": {
+      "description": "Controller test"
+    },
+    "50": {
+      "description": "UNI 7129"
+    },
+    "51": {
+      "description": "UNI 11528"
+    },
+    "52": {
+      "description": "UNI 11137"
+    },
+    "53": {
+      "description": "Leak test gas valve"
+    },
+    "54": {
+      "description": "Leak test flue gas ducts"
+    }
   },
   "section_data": {
     "1": {
@@ -122,7 +190,7 @@
       "109": {
         "datatype": "N",
         "description": "Woehler unit identifier",
-        "value_mapping": "woehler_units"
+        "value_mapping": "unit"
       }
     },
     "2": {
@@ -265,7 +333,7 @@
       "151": {
         "datatype": "N",
         "description": "Data changed or new?",
-        "value_mapping": "change_states"
+        "value_mapping": "change_state"
       }
     },
     "5": {
@@ -276,7 +344,7 @@
       "34": {
         "datatype": "N",
         "description": "Aggregate state",
-        "value_mapping": "aggregate_states"
+        "value_mapping": "aggregate_state"
       },
       "37": {
         "datatype": "N",
@@ -629,7 +697,7 @@
       "84": {
         "datatype": "P",
         "description": "Oil derivatives",
-        "value_mapping": "oil_deriv_states"
+        "value_mapping": "oil_deriv_state"
       },
       "42": {
         "datatype": "N",
@@ -921,7 +989,7 @@
       "292": {
         "datatype": "N",
         "description": "Boiler load state",
-        "value_mapping": "boiler_load_states"
+        "value_mapping": "boiler_load_state"
       }
     },
     "9": {
@@ -958,7 +1026,7 @@
       "172": {
         "datatype": "P",
         "description": "Result",
-        "value_mapping": "result_states"
+        "value_mapping": "result_state"
       }
     },
     "10": {
@@ -1110,7 +1178,7 @@
       "331": {
         "datatype": "N",
         "description": "Heat generator, condensing boiler present?",
-        "value_mapping": "logical_states"
+        "value_mapping": "logical_state"
       },
       "332": {
         "datatype": "A",
@@ -1155,7 +1223,7 @@
       "340": {
         "datatype": "N",
         "description": "Heat generator, controlled or multi-stage heat pump or buffer tank present?",
-        "value_mapping": "logical_states"
+        "value_mapping": "logical_state"
       },
       "341": {
         "datatype": "N",
@@ -1205,12 +1273,12 @@
       "351": {
         "datatype": "N",
         "description": "Domestic hot water preparation, gas appliance with continuously burning pilot flame?",
-        "value_mapping": "logical_states"
+        "value_mapping": "logical_state"
       },
       "352": {
         "datatype": "N",
         "description": "Domestic hot water preparation, additional small electric storage heater present?",
-        "value_mapping": "logical_states"
+        "value_mapping": "logical_state"
       },
       "353": {
         "datatype": "N",
@@ -1290,7 +1358,7 @@
       "380": {
         "datatype": "N",
         "description": "Renewable energy, use of renewable energy?",
-        "value_mapping": "logical_states"
+        "value_mapping": "logical_state"
       },
       "381": {
         "datatype": "N",
@@ -1576,7 +1644,7 @@
       "462": {
         "datatype": "N",
         "description": "Test procedure according to DIN EN 1610?",
-        "value_mapping": "test_procedures"
+        "value_mapping": "test_procedure"
       },
       "463": {
         "datatype": "N",
@@ -1631,7 +1699,7 @@
       "473": {
         "datatype": "N",
         "description": "Surface condition of the line?",
-        "value_mapping": "surface_conditions"
+        "value_mapping": "surface_condition"
       },
       "474": {
         "datatype": "Z",
@@ -1746,7 +1814,7 @@
       "497": {
         "datatype": "N",
         "description": "Pressure type",
-        "value_mapping": "pressure_states"
+        "value_mapping": "pressure_state"
       },
       "498": {
         "datatype": "N",
@@ -1756,12 +1824,12 @@
       "499": {
         "datatype": "N",
         "description": "Volume limit",
-        "value_mapping": "volume_limits"
+        "value_mapping": "volume_limit"
       },
       "172": {
         "datatype": "P",
         "description": "Result",
-        "value_mapping": "result_states"
+        "value_mapping": "result_state"
       }
     },
     "33": {
@@ -1808,7 +1876,7 @@
       "556": {
         "datatype": "N",
         "description": "Pressure type",
-        "value_mapping": "pressure_states"
+        "value_mapping": "pressure_state"
       },
       "557": {
         "datatype": "N",
@@ -1828,195 +1896,526 @@
       "500": {
         "datatype": "Z",
         "description": "Refrigerant",
-        "unit": ""
+        "value_mapping": "refrigerant"
       }
     }
   },
   "value_mapping": {
     "change_state": {
-      "0": "not changed",
-      "1": "changed"
+      "0": {
+        "description": "not changed"
+      },
+      "1": {
+        "description": "changed"
+      }
     },
     "aggregate_state": {
-      "1": "liquid",
-      "2": "gaseous",
-      "3": "solid biogenic",
-      "4": "solid fossil"
+      "1": {
+        "description": "liquid"
+      },
+      "2": {
+        "description": "gaseous"
+      },
+      "3": {
+        "description": "solid biogenic"
+      },
+      "4": {
+        "description": "solid fossil"
+      }
     },
     "fuel_id": {
       "1": {
-        "name": "Heating oil EL"
+        "description": "Heating oil EL"
       },
       "2": {
-        "name": "Natural gas"
+        "description": "Natural gas"
       },
       "3": {
-        "name": "Town gas"
+        "description": "Town gas"
       },
       "4": {
-        "name": "Coke oven gas"
+        "description": "Coke oven gas"
       },
       "5": {
-        "name": "Liquefied petroleum gas propane"
+        "description": "Liquefied petroleum gas propane"
       },
       "6": {
-        "name": "Liquefied petroleum gas butane"
+        "description": "Liquefied petroleum gas butane"
       },
       "7": {
-        "name": "Heavy fuel oil"
+        "description": "Heavy fuel oil"
       },
       "8": {
-        "name": "Brown coal"
+        "description": "Brown coal"
       },
       "9": {
-        "name": "Hard coal"
+        "description": "Hard coal"
       },
       "10": {
-        "name": "Wood pellets"
+        "description": "Wood pellets"
       },
       "11": {
-        "name": "Rapeseed oil"
+        "description": "Rapeseed oil"
       },
       "12": {
-        "name": "Lean coal"
+        "description": "Lean coal"
       },
       "13": {
-        "name": "Wood"
+        "description": "Wood"
       },
       "14": {
-        "name": "Hard coal briquettes"
+        "description": "Hard coal briquettes"
       },
       "15": {
-        "name": "Wood chips"
+        "description": "Wood chips"
       },
       "16": {
-        "name": "Wood shavings"
+        "description": "Wood shavings"
       },
       "17": {
-        "name": "Grain"
+        "description": "Grain"
       },
       "18": {
-        "name": "Biogas"
+        "description": "Biogas"
       },
       "0": {
-        "name": "Any other fuel"
+        "description": "Any other fuel"
       }
     },
     "oil_deriv_state": {
-      "0": "not checked",
-      "1": "not present",
-      "2": "present"
+      "0": {
+        "description": "not checked"
+      },
+      "1": {
+        "description": "not present"
+      },
+      "2": {
+        "description": "present"
+      }
     },
     "boiler_load_state": {
-      "1": "Part load",
-      "2": "Full load"
+      "1": {
+        "description": "Part load"
+      },
+      "2": {
+        "description": "Full load"
+      }
     },
     "result_state": {
-      "0": "Not checked, no result available",
-      "1": "OK / unrestricted serviceable",
-      "2": "Not OK / not serviceable",
-      "3": "Conditionally OK / reduced serviceability"
+      "0": {
+        "description": "Not checked, no result available"
+      },
+      "1": {
+        "description": "OK / unrestricted serviceable"
+      },
+      "2": {
+        "description": "Not OK / not serviceable"
+      },
+      "3": {
+        "description": "Conditionally OK / reduced serviceability"
+      }
     },
     "logical_state": {
-      "0": "No",
-      "1": "Yes"
+      "0": {
+        "description": "No"
+      },
+      "1": {
+        "description": "Yes"
+      }
     },
     "medium": {
-      "1": "Air",
-      "2": "Nitrogen / inert gas",
-      "3": "Natural gas",
-      "4": "Town gas",
-      "5": "Propane",
-      "6": "Butane",
-      "7": "Liquefied petroleum gas",
-      "8": "Hydrogen",
-      "9": "Drinking water",
-      "10": "Wastewater",
-      "11": "Heating water"
+      "1": {
+        "description": "Air"
+      },
+      "2": {
+        "description": "Nitrogen / inert gas"
+      },
+      "3": {
+        "description": "Natural gas"
+      },
+      "4": {
+        "description": "Town gas"
+      },
+      "5": {
+        "description": "Propane"
+      },
+      "6": {
+        "description": "Butane"
+      },
+      "7": {
+        "description": "Liquefied petroleum gas"
+      },
+      "8": {
+        "description": "Hydrogen"
+      },
+      "9": {
+        "description": "Drinking water"
+      },
+      "10": {
+        "description": "Wastewater"
+      },
+      "11": {
+        "description": "Heating water"
+      }
     },
     "surface_condition": {
-      "1": "Dry",
-      "2": "Wet"
+      "1": {
+        "description": "Dry"
+      },
+      "2": {
+        "description": "Wet"
+      }
     },
     "test_procedure": {
-      "0": "No special procedure",
-      "1": "Procedure LA",
-      "2": "Procedure LB",
-      "3": "Procedure LC",
-      "4": "Procedure LD"
+      "0": {
+        "description": "No special procedure"
+      },
+      "1": {
+        "description": "Procedure LA"
+      },
+      "2": {
+        "description": "Procedure LB"
+      },
+      "3": {
+        "description": "Procedure LC"
+      },
+      "4": {
+        "description": "Procedure LD"
+      }
     },
     "pressure_state": {
-      "0": "Relative pressure",
-      "1": "Absolute pressure"
+      "0": {
+        "description": "Relative pressure"
+      },
+      "1": {
+        "description": "Absolute pressure"
+      }
     },
     "laying_type": {
-      "0": "Above ground",
-      "1": "Underground"
+      "0": {
+        "description": "Above ground"
+      },
+      "1": {
+        "description": "Underground"
+      }
     },
     "volume_limit": {
-      "0": "< 100 l",
-      "1": "< 250 l",
-      "2": "< 500 l",
-      "3": "> 500 l",
-      "4": "< 1000 l",
-      "5": "> 1000 l"
+      "0": {
+        "description": "< 100 l"
+      },
+      "1": {
+        "description": "< 250 l"
+      },
+      "2": {
+        "description": "< 500 l"
+      },
+      "3": {
+        "description": "> 500 l"
+      },
+      "4": {
+        "description": "< 1000 l"
+      },
+      "5": {
+        "description": "> 1000 l"
+      }
+    },
+    "refrigerant": {
+      "0": {
+        "description": "R1233zd(E)"
+      },
+      "1": {
+        "description": "R1234yf"
+      },
+      "2": {
+        "description": "R1234ze(E)"
+      },
+      "3": {
+        "description": "R125"
+      },
+      "4": {
+        "description": "R1270"
+      },
+      "5": {
+        "description": "R134a"
+      },
+      "6": {
+        "description": "R152a"
+      },
+      "7": {
+        "description": "R1390"
+      },
+      "8": {
+        "description": "R227ea"
+      },
+      "9": {
+        "description": "R236fa"
+      },
+      "10": {
+        "description": "R23"
+      },
+      "11": {
+        "description": "R245fa"
+      },
+      "12": {
+        "description": "R290"
+      },
+      "13": {
+        "description": "R32"
+      },
+      "14": {
+        "description": "R404A"
+      },
+      "15": {
+        "description": "R407C"
+      },
+      "16": {
+        "description": "R407F"
+      },
+      "17": {
+        "description": "R410A"
+      },
+      "18": {
+        "description": "R417A"
+      },
+      "19": {
+        "description": "R422A"
+      },
+      "20": {
+        "description": "R422D"
+      },
+      "21": {
+        "description": "R437A"
+      },
+      "22": {
+        "description": "R438A"
+      },
+      "23": {
+        "description": "R441A"
+      },
+      "24": {
+        "description": "R443A"
+      },
+      "25": {
+        "description": "R448A"
+      },
+      "26": {
+        "description": "R449A"
+      },
+      "27": {
+        "description": "R450A"
+      },
+      "28": {
+        "description": "R452A"
+      },
+      "29": {
+        "description": "R452B"
+      },
+      "30": {
+        "description": "R454A"
+      },
+      "31": {
+        "description": "R454B"
+      },
+      "32": {
+        "description": "R454C"
+      },
+      "33": {
+        "description": "R455A"
+      },
+      "34": {
+        "description": "R507A"
+      },
+      "35": {
+        "description": "R508B"
+      },
+      "36": {
+        "description": "R513A"
+      },
+      "37": {
+        "description": "R600a"
+      },
+      "38": {
+        "description": "R600"
+      },
+      "39": {
+        "description": "R717"
+      },
+      "40": {
+        "description": "R744"
+      },
+      "41": {
+        "description": "RE170"
+      },
+      "42": {
+        "description": "R718"
+      }
     },
     "unit": {
-      "0": "No Unit",
-      "1": "°C",
-      "2": "°F",
-      "3": "Volumen-%",
-      "4": "ppm",
-      "5": "mg",
-      "6": "mg/m³",
-      "7": "kg/kg",
-      "8": "kg/m³",
-      "9": "mbar",
-      "10": "hPa",
-      "11": "Pa",
-      "12": "psi",
-      "13": "mmH2O",
-      "14": "Inch WC",
-      "15": "bar",
-      "16": "mH2O",
-      "17": "mg/kWh",
-      "18": "%",
-      "19": "l/h",
-      "20": "m³/h",
-      "21": "kPa",
-      "22": "m/s",
-      "23": "l/s",
-      "24": "cfm",
-      "25": "ft/min",
-      "26": "Inch Hg",
-      "27": "m³/s",
-      "28": "ft/s",
-      "29": "l/(s*m²)",
-      "30": "l/min",
-      "31": "cm²",
-      "32": "m²",
-      "33": "mg/MJ",
-      "34": "sl",
-      "35": "m³",
-      "36": "s",
-      "37": "g/kWh",
-      "38": "g/GJ",
-      "39": "lbs/mmBTU",
-      "40": "kW",
-      "41": "W/(m² K)",
-      "42": "m",
-      "43": "l",
-      "45": "g",
-      "50": "g/m³",
-      "53": "lbs/lb",
-      "54": "lbs/cft",
-      "56": "MPa",
-      "57": "ml",
-      "58": "min",
-      "59": "mm",
-      "60": "µmol/mol",
-      "61": "mol/mol * 10^(-2)",
-      "63": "K"
+      "0": {
+        "description": "No Unit"
+      },
+      "1": {
+        "description": "°C"
+      },
+      "2": {
+        "description": "°F"
+      },
+      "3": {
+        "description": "Volumen-%"
+      },
+      "4": {
+        "description": "ppm"
+      },
+      "5": {
+        "description": "mg"
+      },
+      "6": {
+        "description": "mg/m³"
+      },
+      "7": {
+        "description": "kg/kg"
+      },
+      "8": {
+        "description": "kg/m³"
+      },
+      "9": {
+        "description": "mbar"
+      },
+      "10": {
+        "description": "hPa"
+      },
+      "11": {
+        "description": "Pa"
+      },
+      "12": {
+        "description": "psi"
+      },
+      "13": {
+        "description": "mmH2O"
+      },
+      "14": {
+        "description": "Inch WC"
+      },
+      "15": {
+        "description": "bar"
+      },
+      "16": {
+        "description": "mH2O"
+      },
+      "17": {
+        "description": "mg/kWh"
+      },
+      "18": {
+        "description": "%"
+      },
+      "19": {
+        "description": "l/h"
+      },
+      "20": {
+        "description": "m³/h"
+      },
+      "21": {
+        "description": "kPa"
+      },
+      "22": {
+        "description": "m/s"
+      },
+      "23": {
+        "description": "l/s"
+      },
+      "24": {
+        "description": "cfm"
+      },
+      "25": {
+        "description": "ft/min"
+      },
+      "26": {
+        "description": "Inch Hg"
+      },
+      "27": {
+        "description": "m³/s"
+      },
+      "28": {
+        "description": "ft/s"
+      },
+      "29": {
+        "description": "l/(s*m²)"
+      },
+      "30": {
+        "description": "l/min"
+      },
+      "31": {
+        "description": "cm²"
+      },
+      "32": {
+        "description": "m²"
+      },
+      "33": {
+        "description": "mg/MJ"
+      },
+      "34": {
+        "description": "sl"
+      },
+      "35": {
+        "description": "m³"
+      },
+      "36": {
+        "description": "s"
+      },
+      "37": {
+        "description": "g/kWh"
+      },
+      "38": {
+        "description": "g/GJ"
+      },
+      "39": {
+        "description": "lbs/mmBTU"
+      },
+      "40": {
+        "description": "kW"
+      },
+      "41": {
+        "description": "W/(m² K)"
+      },
+      "42": {
+        "description": "m"
+      },
+      "43": {
+        "description": "l"
+      },
+      "45": {
+        "description": "g"
+      },
+      "50": {
+        "description": "g/m³"
+      },
+      "53": {
+        "description": "lbs/lb"
+      },
+      "54": {
+        "description": "lbs/cft"
+      },
+      "56": {
+        "description": "MPa"
+      },
+      "57": {
+        "description": "ml"
+      },
+      "58": {
+        "description": "min"
+      },
+      "59": {
+        "description": "mm"
+      },
+      "60": {
+        "description": "µmol/mol"
+      },
+      "61": {
+        "description": "mol/mol * 10^(-2)"
+      },
+      "63": {
+        "description": "K"
+      }
     }
   }
 }
