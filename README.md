@@ -1,21 +1,21 @@
 # Data Structure of the Woehler QR Code
 
-## General structure
-A QR code always has the same structure.
-The first lines and field numbers, as well as the last line and field number, are general field numbers.
+## General Structure
+Every QR code has the same basic structure.
+The first few field numbers, as well as the last field number, are general field numbers.
 They are the same in every QR code.
-The correct order and presence of the general field numbers can be used to verify the QR code's general validity.
+The order and presence of the general field numbers can be used to verify the QR code's general validity.
 
 A validity marker is inserted between the field number and the payload.
 The validity marker is a single letter.
 The meaning of the individual letters is described in the "Validity markers" table.
 
-Every line of text contained in the QR code has the same structure.
+Every line of text in the QR code has the same structure.
 Each line starts with a field number, followed by a validity marker and the payload.
 The only exception is the last line, which starts with field number 20.
 This line has no payload and signals the end of the transmission.
 All lines are terminated by the line feed character (LF, ASCII 0x0A, `\n`).
-The payload may also contain an LF; in this case, the LF is replaced by the string "\n".
+The payload may also contain an LF. In this case, the LF is replaced by the string "\n".
 
 The general field numbers are described in the JSON file under `general_field`.
 The data types of the field numbers are described in the JSON file under `datatype`.
@@ -66,27 +66,28 @@ ___
 ## Value Mappings and Units
 Some field numbers have associated value mappings that define the possible values and their meanings.
 Other field numbers may have associated units that define the measurement units for the data.
-These value mappings help interpret the data correctly, while the associated units identify the measurement units.
+These value mappings help interpret the data correctly, while the associated units identify the units of measurement.
+
+Note that there is also a value mapping for the checkpoint data type (P).
+This provides additional information for interpreting the checkpoint field, because the checkpoint data type is already clearly defined.
 
 ### Example
-Field number `172` in section `0` has an associated value mapping called `result_state`.
+Field number `497` in section `0` has an associated value mapping named `pressure_state`.
 The possible values are found in the `value_mapping` section, and their meanings are as follows:
 
 |Value|Meaning|
 |-----|-------|
-|0|Not checked, no result available|
-|1|OK / unrestricted serviceable|
-|2|Not OK / not serviceable|
-|3|Conditionally OK / reduced serviceability|
+|0|Relative pressure|
+|1|Absolute pressure|
 
 Field number `450` in section `0` has the associated unit `hPa`.
 Note that the key `unit` directly indicates the measurement unit for the associated field.
 There is also a `unit` value mapping in the `value_mapping` section.
-Field number `109` in section `1` is a special case used to specify a global pressure unit.
-This field number shows the global unit setting configured on the device and is not relevant to individual field units in the QR code.
+Field number `109` in section `1` is a special case used to specify the global pressure unit.
+This field number shows the global unit setting configured on the device and is not relevant to the units of individual fields in the QR code.
 ___
 ## QR Code Example
-The following QR code contains the data from a leak test on a gas pipe.
+The following QR code contains data from a leak test on a gas pipe.
 The data contains four sections.
 The first section contains device information, the second section contains customer information, the third section contains project data, and the fourth section contains the test results.
 
