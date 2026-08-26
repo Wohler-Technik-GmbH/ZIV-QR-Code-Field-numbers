@@ -185,3 +185,40 @@ If the QR code contains multiple measurements, another line with field number 5 
 20G                 # General field number (without payload): end of transmission
 
 ```
+
+___
+## JSON Consistency Check
+The JSON files are the important part of this repository. The repository is included as a submodule in other projects, where the JSON files provide the field-name definitions.
+
+The `check_json_diff.py` script is a development aid for comparing two JSON files. It verifies that both files have the same structure and values, while ignoring the values of the `description` keys. This makes it possible to check whether a newly created file matches its counterpart or whether changes made to both files are consistent.
+
+The script uses only Python's standard library, so no packages need to be installed for the comparison itself. The `requirements.txt` file is therefore empty. The development requirements contain only `ruff`, which is used for linting.
+
+### Create a virtual environment
+Make sure that Python 3.10 or newer is installed. From the repository root, create a virtual environment:
+
+```powershell
+python -m venv .venv
+```
+
+Activate it in PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+### Install development tools
+To install the linter, install the development requirements:
+
+```powershell
+pip install -r requirements-dev.txt
+```
+
+### Run the JSON comparison
+Pass the two JSON files to the script in the desired order:
+
+```powershell
+python .\check_json_diff.py .\field_names_de.json .\field_names_en.json
+```
+
+If the files match apart from their `description` values, the script prints a `MATCH` message and exits successfully. Differences in structure or in any other value produce a `DIFFERENCE` message and a non-zero exit code.
