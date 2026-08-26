@@ -436,18 +436,15 @@
     "7": {
       "23": {
         "datatype": "D",
-        "description": "Datum der Messung",
-        "unit": ""
+        "description": "Datum der Messung"
       },
       "22": {
         "datatype": "U",
-        "description": "Uhrzeit der Messung",
-        "unit": ""
+        "description": "Uhrzeit der Messung"
       },
       "107": {
         "datatype": "Z",
-        "description": "Messgeräte-Identifikationsnummer",
-        "unit": ""
+        "description": "Messgeräte-Identifikationsnummer"
       },
       "36": {
         "datatype": "N",
@@ -461,8 +458,7 @@
       },
       "92": {
         "datatype": "N",
-        "description": "Luftzahl",
-        "unit": ""
+        "description": "Luftzahl"
       },
       "52": {
         "datatype": "N",
@@ -686,13 +682,11 @@
       },
       "82": {
         "datatype": "L",
-        "description": "Rußzahl 1, 2 und 3",
-        "unit": ""
+        "description": "Rußzahl 1, 2 und 3"
       },
       "83": {
         "datatype": "N",
-        "description": "Rußzahl Mittelwert",
-        "unit": ""
+        "description": "Rußzahl Mittelwert"
       },
       "84": {
         "datatype": "P",
@@ -706,8 +700,7 @@
       },
       "94": {
         "datatype": "N",
-        "description": "pH-Wert des Kondensats",
-        "unit": ""
+        "description": "pH-Wert des Kondensats"
       },
       "240": {
         "datatype": "N",
@@ -726,8 +719,7 @@
       },
       "243": {
         "datatype": "N",
-        "description": "Luftzahl (44. BImSchV)",
-        "unit": ""
+        "description": "Luftzahl (44. BImSchV)"
       },
       "244": {
         "datatype": "N",
@@ -863,18 +855,15 @@
     "8": {
       "23": {
         "datatype": "D",
-        "description": "Datum der Messung",
-        "unit": ""
+        "description": "Datum der Messung"
       },
       "22": {
         "datatype": "U",
-        "description": "Uhrzeit der Messung",
-        "unit": ""
+        "description": "Uhrzeit der Messung"
       },
       "107": {
         "datatype": "Z",
-        "description": "Messgeräte-Identifikationsnummer",
-        "unit": ""
+        "description": "Messgeräte-Identifikationsnummer"
       },
       "36": {
         "datatype": "N",
@@ -983,8 +972,7 @@
       },
       "291": {
         "datatype": "Z",
-        "description": "Filter- oder Hülsennummer",
-        "unit": ""
+        "description": "Filter- oder Hülsennummer"
       },
       "292": {
         "datatype": "N",
@@ -995,18 +983,15 @@
     "9": {
       "23": {
         "datatype": "D",
-        "description": "Datum der Messung",
-        "unit": ""
+        "description": "Datum der Messung"
       },
       "22": {
         "datatype": "U",
-        "description": "Uhrzeit der Messung",
-        "unit": ""
+        "description": "Uhrzeit der Messung"
       },
       "107": {
         "datatype": "Z",
-        "description": "Messgeräte-Identifikationsnummer",
-        "unit": ""
+        "description": "Messgeräte-Identifikationsnummer"
       },
       "170": {
         "datatype": "N",
@@ -1032,33 +1017,27 @@
     "10": {
       "23": {
         "datatype": "D",
-        "description": "Datum der Messung",
-        "unit": ""
+        "description": "Datum der Messung"
       },
       "22": {
         "datatype": "U",
-        "description": "Uhrzeit der Messung",
-        "unit": ""
+        "description": "Uhrzeit der Messung"
       },
       "107": {
         "datatype": "Z",
-        "description": "Messgeräte-Identifikationsnummer",
-        "unit": ""
+        "description": "Messgeräte-Identifikationsnummer"
       },
       "300": {
         "datatype": "N",
-        "description": "Wohngebäude, Baujahr",
-        "unit": ""
+        "description": "Wohngebäude, Baujahr"
       },
       "301": {
         "datatype": "Z",
-        "description": "Wohngebäude, Wärmeschutzstandard",
-        "unit": ""
+        "description": "Wohngebäude, Wärmeschutzstandard"
       },
       "302": {
         "datatype": "Z",
-        "description": "Wohngebäude, Gebäudeart",
-        "unit": ""
+        "description": "Wohngebäude, Gebäudeart"
       },
       "303": {
         "datatype": "N",
@@ -1067,8 +1046,7 @@
       },
       "304": {
         "datatype": "N",
-        "description": "Wohngebäude, Anzahl der Wohneinheiten",
-        "unit": ""
+        "description": "Wohngebäude, Anzahl der Wohneinheiten"
       },
       "310": {
         "datatype": "N",
@@ -1077,8 +1055,7 @@
       },
       "311": {
         "datatype": "N",
-        "description": "Oberfl.-Verlust, Zahl der Teilflächen",
-        "unit": ""
+        "description": "Oberfl.-Verlust, Zahl der Teilflächen"
       },
       "312": {
         "datatype": "N",
@@ -1102,8 +1079,7 @@
       },
       "316": {
         "datatype": "N",
-        "description": "Oberflächenverlust Punkte",
-        "unit": ""
+        "description": "Oberflächenverlust Punkte"
       },
       "320": {
         "datatype": "N",
@@ -1142,8 +1118,7 @@
       },
       "327": {
         "datatype": "N",
-        "description": "Ventilationsverlust Punkte",
-        "unit": ""
+        "description": "Ventilationsverlust Punkte"
       },
       "50": {
         "datatype": "N",
@@ -1167,13 +1142,11 @@
       },
       "329": {
         "datatype": "N",
-        "description": "Abgasverlust Punkte",
-        "unit": ""
+        "description": "Abgasverlust Punkte"
       },
       "330": {
         "datatype": "N",
-        "description": "Wärmeerzeuger, Alternative Bewertung über Kessellabel, Punkte",
-        "unit": ""
+        "description": "Wärmeerzeuger, Alternative Bewertung über Kessellabel, Punkte"
       },
       "331": {
         "datatype": "N",
@@ -1182,43 +1155,35 @@
       },
       "332": {
         "datatype": "A",
-        "description": "Wärmeerzeuger, Systemtemperatureinstellung",
-        "unit": ""
+        "description": "Wärmeerzeuger, Systemtemperatureinstellung"
       },
       "333": {
         "datatype": "N",
-        "description": "Wärmeerzeuger, Brennwertkessel Punkte",
-        "unit": ""
+        "description": "Wärmeerzeuger, Brennwertkessel Punkte"
       },
       "334": {
         "datatype": "A",
-        "description": "Wärmeerzeuger, Kesseldimensionierung",
-        "unit": ""
+        "description": "Wärmeerzeuger, Kesseldimensionierung"
       },
       "335": {
         "datatype": "N",
-        "description": "Wärmeerzeuger, Kesseldimensionierung Punkte",
-        "unit": ""
+        "description": "Wärmeerzeuger, Kesseldimensionierung Punkte"
       },
       "336": {
         "datatype": "A",
-        "description": "Wärmeerzeuger, Art der Nah- bzw. Fernwärmeübergabestation",
-        "unit": ""
+        "description": "Wärmeerzeuger, Art der Nah- bzw. Fernwärmeübergabestation"
       },
       "337": {
         "datatype": "N",
-        "description": "Wärmeerzeuger, Nah- bzw. Fernwärmenutzung Punkte",
-        "unit": ""
+        "description": "Wärmeerzeuger, Nah- bzw. Fernwärmenutzung Punkte"
       },
       "338": {
         "datatype": "N",
-        "description": "Wärmeerzeuger, Luft-Wasser-Wärmepumpe Punkte",
-        "unit": ""
+        "description": "Wärmeerzeuger, Luft-Wasser-Wärmepumpe Punkte"
       },
       "339": {
         "datatype": "N",
-        "description": "Wärmeerzeuger, Sole- oder Wasser-Wasser-Wärmepumpe Punkte",
-        "unit": ""
+        "description": "Wärmeerzeuger, Sole- oder Wasser-Wasser-Wärmepumpe Punkte"
       },
       "340": {
         "datatype": "N",
@@ -1227,23 +1192,19 @@
       },
       "341": {
         "datatype": "N",
-        "description": "Wärmeerzeuger, Gesamtpunkte Wärmepumpe",
-        "unit": ""
+        "description": "Wärmeerzeuger, Gesamtpunkte Wärmepumpe"
       },
       "342": {
         "datatype": "A",
-        "description": "Wärmeerzeuger, Art des Feststoffkessels",
-        "unit": ""
+        "description": "Wärmeerzeuger, Art des Feststoffkessels"
       },
       "343": {
         "datatype": "A",
-        "description": "Wärmeerzeuger, Kessel modulierend oder Pufferspeicher vorhanden",
-        "unit": ""
+        "description": "Wärmeerzeuger, Kessel modulierend oder Pufferspeicher vorhanden"
       },
       "344": {
         "datatype": "N",
-        "description": "Wärmeerzeuger, Feststoffkessel Punkte",
-        "unit": ""
+        "description": "Wärmeerzeuger, Feststoffkessel Punkte"
       },
       "345": {
         "datatype": "N",
@@ -1252,23 +1213,19 @@
       },
       "346": {
         "datatype": "A",
-        "description": "Wärmeerzeuger, Art des Kesselthermostats",
-        "unit": ""
+        "description": "Wärmeerzeuger, Art des Kesselthermostats"
       },
       "347": {
         "datatype": "A",
-        "description": "Wärmeerzeuger, Einstellung des Kesselthermostats",
-        "unit": ""
+        "description": "Wärmeerzeuger, Einstellung des Kesselthermostats"
       },
       "348": {
         "datatype": "N",
-        "description": "Wärmeerzeuger, Kesselthermostat Punkte",
-        "unit": ""
+        "description": "Wärmeerzeuger, Kesselthermostat Punkte"
       },
       "350": {
         "datatype": "A",
-        "description": "Warmwasserbereitung, Art der Warmwasserbereitung",
-        "unit": ""
+        "description": "Warmwasserbereitung, Art der Warmwasserbereitung"
       },
       "351": {
         "datatype": "N",
@@ -1282,78 +1239,63 @@
       },
       "353": {
         "datatype": "N",
-        "description": "Warmwasserbereitung Punkte",
-        "unit": ""
+        "description": "Warmwasserbereitung Punkte"
       },
       "360": {
         "datatype": "A",
-        "description": "Verteilung, hydraulischer Abgleich",
-        "unit": ""
+        "description": "Verteilung, hydraulischer Abgleich"
       },
       "361": {
         "datatype": "N",
-        "description": "Verteilung, hydraulischer Abgleich Punkte",
-        "unit": ""
+        "description": "Verteilung, hydraulischer Abgleich Punkte"
       },
       "362": {
         "datatype": "A",
-        "description": "Verteilung, Pumpendimensionierung",
-        "unit": ""
+        "description": "Verteilung, Pumpendimensionierung"
       },
       "363": {
         "datatype": "N",
-        "description": "Verteilung, Pumpendimensionierung Punkte",
-        "unit": ""
+        "description": "Verteilung, Pumpendimensionierung Punkte"
       },
       "364": {
         "datatype": "A",
-        "description": "Verteilung, Rohrleitungsdämmung ohne zentrale Warmwasserbereitung",
-        "unit": ""
+        "description": "Verteilung, Rohrleitungsdämmung ohne zentrale Warmwasserbereitung"
       },
       "365": {
         "datatype": "A",
-        "description": "Verteilung, Rohrleitungsdämmung mit zentraler Warmwasserbereitung",
-        "unit": ""
+        "description": "Verteilung, Rohrleitungsdämmung mit zentraler Warmwasserbereitung"
       },
       "366": {
         "datatype": "N",
-        "description": "Verteilung, Rohrisolierung Punkte",
-        "unit": ""
+        "description": "Verteilung, Rohrisolierung Punkte"
       },
       "367": {
         "datatype": "A",
-        "description": "Verteilung, Systemtemperaturen",
-        "unit": ""
+        "description": "Verteilung, Systemtemperaturen"
       },
       "368": {
         "datatype": "N",
-        "description": "Verteilung, Systemtemperaturen Punkte",
-        "unit": ""
+        "description": "Verteilung, Systemtemperaturen Punkte"
       },
       "370": {
         "datatype": "A",
-        "description": "Wärmeübergabe, Art des Heizkörperthermostats",
-        "unit": ""
+        "description": "Wärmeübergabe, Art des Heizkörperthermostats"
       },
       "371": {
         "datatype": "P",
-        "description": "Wärmeübergabe, Montage des Heizkörperthermostats",
-        "unit": ""
+        "description": "Wärmeübergabe, Montage des Heizkörperthermostats"
       },
       "372": {
         "datatype": "N",
-        "description": "Wärmeübergabe, Heizkörperthermostat Punkte",
-        "unit": ""
+        "description": "Wärmeübergabe, Heizkörperthermostat Punkte"
       },
       "373": {
         "datatype": "A",
-        "description": "Wärmeübergabe, Art der Fussbodenheizung",
-        "unit": ""
+        "description": "Wärmeübergabe, Art der Fussbodenheizung"
       },
       "374": {
         "datatype": "N",
-        "description": "Wärmeübergabe, Fussbodenheizung Punkte",
-        "unit": ""
+        "description": "Wärmeübergabe, Fussbodenheizung Punkte"
       },
       "380": {
         "datatype": "N",
@@ -1362,38 +1304,31 @@
       },
       "381": {
         "datatype": "N",
-        "description": "Erneuerbare Energien, Punkte",
-        "unit": ""
+        "description": "Erneuerbare Energien, Punkte"
       },
       "390": {
         "datatype": "Z",
-        "description": "Modernisierungsempfehlungen Wärmeerzeuger",
-        "unit": ""
+        "description": "Modernisierungsempfehlungen Wärmeerzeuger"
       },
       "391": {
         "datatype": "Z",
-        "description": "Modernisierungsempfehlungen Warmwasserbereitung",
-        "unit": ""
+        "description": "Modernisierungsempfehlungen Warmwasserbereitung"
       },
       "392": {
         "datatype": "Z",
-        "description": "Modernisierungsempfehlungen Wärme- und Warmwasserverteilung",
-        "unit": ""
+        "description": "Modernisierungsempfehlungen Wärme- und Warmwasserverteilung"
       },
       "393": {
         "datatype": "Z",
-        "description": "Modernisierungsempfehlungen Wärmeübergabe",
-        "unit": ""
+        "description": "Modernisierungsempfehlungen Wärmeübergabe"
       },
       "394": {
         "datatype": "Z",
-        "description": "Modernisierungsempfehlungen erneuerbare Energien",
-        "unit": ""
+        "description": "Modernisierungsempfehlungen erneuerbare Energien"
       },
       "395": {
         "datatype": "Z",
-        "description": "Weitere Bemerkungen zur Bewertung der Anlage",
-        "unit": ""
+        "description": "Weitere Bemerkungen zur Bewertung der Anlage"
       }
     },
     "10.x": {
@@ -1436,125 +1371,101 @@
     "11": {
       "23": {
         "datatype": "D",
-        "description": "Datum der Prüfung",
-        "unit": ""
+        "description": "Datum der Prüfung"
       },
       "22": {
         "datatype": "U",
-        "description": "Uhrzeit der Prüfung",
-        "unit": ""
+        "description": "Uhrzeit der Prüfung"
       },
       "410": {
         "datatype": "P",
-        "description": "Verbrennungsluft / Lüftung",
-        "unit": ""
+        "description": "Verbrennungsluft / Lüftung"
       },
       "411": {
         "datatype": "P",
-        "description": "Standsicherheit des Geräts",
-        "unit": ""
+        "description": "Standsicherheit des Geräts"
       },
       "412": {
         "datatype": "P",
-        "description": "Befestigung / Abstände der Feuerstätte",
-        "unit": ""
+        "description": "Befestigung / Abstände der Feuerstätte"
       },
       "413": {
         "datatype": "P",
-        "description": "Äußerer bzw. ordnungsgemäßer technischer Zustand der Feuerstätte",
-        "unit": ""
+        "description": "Äußerer bzw. ordnungsgemäßer technischer Zustand der Feuerstätte"
       },
       "414": {
         "datatype": "P",
-        "description": "Brenner / Heizgasweg",
-        "unit": ""
+        "description": "Brenner / Heizgasweg"
       },
       "415": {
         "datatype": "P",
-        "description": "Flammenbild",
-        "unit": ""
+        "description": "Flammenbild"
       },
       "416": {
         "datatype": "P",
-        "description": "Schalldämpfer",
-        "unit": ""
+        "description": "Schalldämpfer"
       },
       "417": {
         "datatype": "P",
-        "description": "Vorhandenes Wärmespeichervolumen ausreichend",
-        "unit": ""
+        "description": "Vorhandenes Wärmespeichervolumen ausreichend"
       },
       "418": {
         "datatype": "P",
-        "description": "Abstand der Austrittsöffnung des Schornsteins zum Dach ausreichend",
-        "unit": ""
+        "description": "Abstand der Austrittsöffnung des Schornsteins zum Dach ausreichend"
       },
       "419": {
         "datatype": "P",
-        "description": "Abstand zu Lüftungsöffnungen, Fenstern und Türen ausreichend",
-        "unit": ""
+        "description": "Abstand zu Lüftungsöffnungen, Fenstern und Türen ausreichend"
       },
       "420": {
         "datatype": "P",
-        "description": "Feuerungsanlage für verwendete Brennstoffe geeignet",
-        "unit": ""
+        "description": "Feuerungsanlage für verwendete Brennstoffe geeignet"
       },
       "421": {
         "datatype": "P",
-        "description": "Abgasabzug an der Strömungssicherung",
-        "unit": ""
+        "description": "Abgasabzug an der Strömungssicherung"
       },
       "422": {
         "datatype": "P",
-        "description": "Abgasabzug am Gerät bzw. in Brennerhöhe",
-        "unit": ""
+        "description": "Abgasabzug am Gerät bzw. in Brennerhöhe"
       },
       "423": {
         "datatype": "P",
-        "description": "Abgasabzug am Abgasstutzen",
-        "unit": ""
+        "description": "Abgasabzug am Abgasstutzen"
       },
       "424": {
         "datatype": "P",
-        "description": "Abgasabzug am Schalldämpfer",
-        "unit": ""
+        "description": "Abgasabzug am Schalldämpfer"
       },
       "425": {
         "datatype": "P",
-        "description": "Abgasabzug an anderer Stelle",
-        "unit": ""
+        "description": "Abgasabzug an anderer Stelle"
       },
       "426": {
         "datatype": "P",
-        "description": "Abgasklappe",
-        "unit": ""
+        "description": "Abgasklappe"
       },
       "427": {
         "datatype": "P",
-        "description": "Abgas-Verbindungsstück",
-        "unit": ""
+        "description": "Abgas-Verbindungsstück"
       },
       "428": {
         "datatype": "P",
-        "description": "Abgasleitung",
-        "unit": ""
+        "description": "Abgasleitung"
       },
       "395": {
         "datatype": "Z",
-        "description": "Kommentar",
-        "unit": ""
+        "description": "Kommentar"
       }
     },
     "0": {
       "23": {
         "datatype": "D",
-        "description": "Datum der Messung",
-        "unit": ""
+        "description": "Datum der Messung"
       },
       "22": {
         "datatype": "U",
-        "description": "Uhrzeit der Messung",
-        "unit": ""
+        "description": "Uhrzeit der Messung"
       },
       "440": {
         "datatype": "N",
@@ -1578,8 +1489,7 @@
       },
       "444": {
         "datatype": "Z",
-        "description": "Reglernummer",
-        "unit": ""
+        "description": "Reglernummer"
       },
       "450": {
         "datatype": "N",
@@ -1648,8 +1558,7 @@
       },
       "463": {
         "datatype": "N",
-        "description": "Relative Viskosität des Prüfmediums bezogen auf das Betriebsmedium",
-        "unit": ""
+        "description": "Relative Viskosität des Prüfmediums bezogen auf das Betriebsmedium"
       },
       "464": {
         "datatype": "N",
@@ -1703,8 +1612,7 @@
       },
       "474": {
         "datatype": "Z",
-        "description": "Material der Leitung",
-        "unit": ""
+        "description": "Material der Leitung"
       },
       "475": {
         "datatype": "N",
@@ -1835,13 +1743,11 @@
     "33": {
       "23": {
         "datatype": "D",
-        "description": "Datum der Messung",
-        "unit": ""
+        "description": "Datum der Messung"
       },
       "22": {
         "datatype": "U",
-        "description": "Uhrzeit der Messung",
-        "unit": ""
+        "description": "Uhrzeit der Messung"
       },
       "550": {
         "datatype": "N",

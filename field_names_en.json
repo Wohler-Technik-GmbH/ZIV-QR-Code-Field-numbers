@@ -436,18 +436,15 @@
     "7": {
       "23": {
         "datatype": "D",
-        "description": "Measurement date",
-        "unit": ""
+        "description": "Measurement date"
       },
       "22": {
         "datatype": "U",
-        "description": "Measurement time",
-        "unit": ""
+        "description": "Measurement time"
       },
       "107": {
         "datatype": "Z",
-        "description": "Measuring instrument identification number",
-        "unit": ""
+        "description": "Measuring instrument identification number"
       },
       "36": {
         "datatype": "N",
@@ -461,8 +458,7 @@
       },
       "92": {
         "datatype": "N",
-        "description": "Lambda value",
-        "unit": ""
+        "description": "Lambda value"
       },
       "52": {
         "datatype": "N",
@@ -686,13 +682,11 @@
       },
       "82": {
         "datatype": "L",
-        "description": "Soot number 1, 2, and 3",
-        "unit": ""
+        "description": "Soot number 1, 2, and 3"
       },
       "83": {
         "datatype": "N",
-        "description": "Average soot number",
-        "unit": ""
+        "description": "Average soot number"
       },
       "84": {
         "datatype": "P",
@@ -706,8 +700,7 @@
       },
       "94": {
         "datatype": "N",
-        "description": "pH value of condensate",
-        "unit": ""
+        "description": "pH value of condensate"
       },
       "240": {
         "datatype": "N",
@@ -726,8 +719,7 @@
       },
       "243": {
         "datatype": "N",
-        "description": "Lambda value (44th Federal Immission Control Ordinance)",
-        "unit": ""
+        "description": "Lambda value (44th Federal Immission Control Ordinance)"
       },
       "244": {
         "datatype": "N",
@@ -863,18 +855,15 @@
     "8": {
       "23": {
         "datatype": "D",
-        "description": "Measurement date",
-        "unit": ""
+        "description": "Measurement date"
       },
       "22": {
         "datatype": "U",
-        "description": "Measurement time",
-        "unit": ""
+        "description": "Measurement time"
       },
       "107": {
         "datatype": "Z",
-        "description": "Measuring instrument identification number",
-        "unit": ""
+        "description": "Measuring instrument identification number"
       },
       "36": {
         "datatype": "N",
@@ -983,8 +972,7 @@
       },
       "291": {
         "datatype": "Z",
-        "description": "Filter or sleeve number",
-        "unit": ""
+        "description": "Filter or sleeve number"
       },
       "292": {
         "datatype": "N",
@@ -995,18 +983,15 @@
     "9": {
       "23": {
         "datatype": "D",
-        "description": "Measurement date",
-        "unit": ""
+        "description": "Measurement date"
       },
       "22": {
         "datatype": "U",
-        "description": "Measurement time",
-        "unit": ""
+        "description": "Measurement time"
       },
       "107": {
         "datatype": "Z",
-        "description": "Measuring instrument identification number",
-        "unit": ""
+        "description": "Measuring instrument identification number"
       },
       "170": {
         "datatype": "N",
@@ -1032,33 +1017,27 @@
     "10": {
       "23": {
         "datatype": "D",
-        "description": "Measurement date",
-        "unit": ""
+        "description": "Measurement date"
       },
       "22": {
         "datatype": "U",
-        "description": "Measurement time",
-        "unit": ""
+        "description": "Measurement time"
       },
       "107": {
         "datatype": "Z",
-        "description": "Measuring instrument identification number",
-        "unit": ""
+        "description": "Measuring instrument identification number"
       },
       "300": {
         "datatype": "N",
-        "description": "Residential building, year of construction",
-        "unit": ""
+        "description": "Residential building, year of construction"
       },
       "301": {
         "datatype": "Z",
-        "description": "Residential building, thermal insulation standard",
-        "unit": ""
+        "description": "Residential building, thermal insulation standard"
       },
       "302": {
         "datatype": "Z",
-        "description": "Residential building, building type",
-        "unit": ""
+        "description": "Residential building, building type"
       },
       "303": {
         "datatype": "N",
@@ -1067,8 +1046,7 @@
       },
       "304": {
         "datatype": "N",
-        "description": "Residential building, number of dwelling units",
-        "unit": ""
+        "description": "Residential building, number of dwelling units"
       },
       "310": {
         "datatype": "N",
@@ -1077,8 +1055,7 @@
       },
       "311": {
         "datatype": "N",
-        "description": "Surface loss, number of subareas",
-        "unit": ""
+        "description": "Surface loss, number of subareas"
       },
       "312": {
         "datatype": "N",
@@ -1102,8 +1079,7 @@
       },
       "316": {
         "datatype": "N",
-        "description": "Surface loss points",
-        "unit": ""
+        "description": "Surface loss points"
       },
       "320": {
         "datatype": "N",
@@ -1142,8 +1118,7 @@
       },
       "327": {
         "datatype": "N",
-        "description": "Ventilation loss points",
-        "unit": ""
+        "description": "Ventilation loss points"
       },
       "50": {
         "datatype": "N",
@@ -1167,13 +1142,11 @@
       },
       "329": {
         "datatype": "N",
-        "description": "Flue gas loss points",
-        "unit": ""
+        "description": "Flue gas loss points"
       },
       "330": {
         "datatype": "N",
-        "description": "Heat generator, alternative assessment via boiler label, points",
-        "unit": ""
+        "description": "Heat generator, alternative assessment via boiler label, points"
       },
       "331": {
         "datatype": "N",
@@ -1182,43 +1155,35 @@
       },
       "332": {
         "datatype": "A",
-        "description": "Heat generator, system temperature setting",
-        "unit": ""
+        "description": "Heat generator, system temperature setting"
       },
       "333": {
         "datatype": "N",
-        "description": "Heat generator, condensing boiler points",
-        "unit": ""
+        "description": "Heat generator, condensing boiler points"
       },
       "334": {
         "datatype": "A",
-        "description": "Heat generator, boiler sizing",
-        "unit": ""
+        "description": "Heat generator, boiler sizing"
       },
       "335": {
         "datatype": "N",
-        "description": "Heat generator, boiler sizing points",
-        "unit": ""
+        "description": "Heat generator, boiler sizing points"
       },
       "336": {
         "datatype": "A",
-        "description": "Heat generator, type of district-heating transfer station",
-        "unit": ""
+        "description": "Heat generator, type of district-heating transfer station"
       },
       "337": {
         "datatype": "N",
-        "description": "Heat generator, district or local heating usage points",
-        "unit": ""
+        "description": "Heat generator, district or local heating usage points"
       },
       "338": {
         "datatype": "N",
-        "description": "Heat generator, air-to-water heat pump points",
-        "unit": ""
+        "description": "Heat generator, air-to-water heat pump points"
       },
       "339": {
         "datatype": "N",
-        "description": "Heat generator, brine-to-water or water-to-water heat pump points",
-        "unit": ""
+        "description": "Heat generator, brine-to-water or water-to-water heat pump points"
       },
       "340": {
         "datatype": "N",
@@ -1227,23 +1192,19 @@
       },
       "341": {
         "datatype": "N",
-        "description": "Heat generator, total heat pump points",
-        "unit": ""
+        "description": "Heat generator, total heat pump points"
       },
       "342": {
         "datatype": "A",
-        "description": "Heat generator, type of solid-fuel boiler",
-        "unit": ""
+        "description": "Heat generator, type of solid-fuel boiler"
       },
       "343": {
         "datatype": "A",
-        "description": "Heat generator, boiler modulating or buffer tank present",
-        "unit": ""
+        "description": "Heat generator, boiler modulating or buffer tank present"
       },
       "344": {
         "datatype": "N",
-        "description": "Heat generator, solid-fuel boiler points",
-        "unit": ""
+        "description": "Heat generator, solid-fuel boiler points"
       },
       "345": {
         "datatype": "N",
@@ -1252,23 +1213,19 @@
       },
       "346": {
         "datatype": "A",
-        "description": "Heat generator, type of boiler thermostat",
-        "unit": ""
+        "description": "Heat generator, type of boiler thermostat"
       },
       "347": {
         "datatype": "A",
-        "description": "Heat generator, boiler thermostat setting",
-        "unit": ""
+        "description": "Heat generator, boiler thermostat setting"
       },
       "348": {
         "datatype": "N",
-        "description": "Heat generator, boiler thermostat points",
-        "unit": ""
+        "description": "Heat generator, boiler thermostat points"
       },
       "350": {
         "datatype": "A",
-        "description": "Domestic hot water preparation, type",
-        "unit": ""
+        "description": "Domestic hot water preparation, type"
       },
       "351": {
         "datatype": "N",
@@ -1282,78 +1239,63 @@
       },
       "353": {
         "datatype": "N",
-        "description": "Domestic hot water preparation points",
-        "unit": ""
+        "description": "Domestic hot water preparation points"
       },
       "360": {
         "datatype": "A",
-        "description": "Distribution, hydraulic balancing",
-        "unit": ""
+        "description": "Distribution, hydraulic balancing"
       },
       "361": {
         "datatype": "N",
-        "description": "Distribution, hydraulic balancing points",
-        "unit": ""
+        "description": "Distribution, hydraulic balancing points"
       },
       "362": {
         "datatype": "A",
-        "description": "Distribution, pump sizing",
-        "unit": ""
+        "description": "Distribution, pump sizing"
       },
       "363": {
         "datatype": "N",
-        "description": "Distribution, pump sizing points",
-        "unit": ""
+        "description": "Distribution, pump sizing points"
       },
       "364": {
         "datatype": "A",
-        "description": "Distribution, pipe insulation without central domestic hot water preparation",
-        "unit": ""
+        "description": "Distribution, pipe insulation without central domestic hot water preparation"
       },
       "365": {
         "datatype": "A",
-        "description": "Distribution, pipe insulation with central domestic hot water preparation",
-        "unit": ""
+        "description": "Distribution, pipe insulation with central domestic hot water preparation"
       },
       "366": {
         "datatype": "N",
-        "description": "Distribution, pipe insulation points",
-        "unit": ""
+        "description": "Distribution, pipe insulation points"
       },
       "367": {
         "datatype": "A",
-        "description": "Distribution, system temperatures",
-        "unit": ""
+        "description": "Distribution, system temperatures"
       },
       "368": {
         "datatype": "N",
-        "description": "Distribution, system temperature points",
-        "unit": ""
+        "description": "Distribution, system temperature points"
       },
       "370": {
         "datatype": "A",
-        "description": "Heat transfer, type of radiator thermostat",
-        "unit": ""
+        "description": "Heat transfer, type of radiator thermostat"
       },
       "371": {
         "datatype": "P",
-        "description": "Heat transfer, radiator thermostat installation",
-        "unit": ""
+        "description": "Heat transfer, radiator thermostat installation"
       },
       "372": {
         "datatype": "N",
-        "description": "Heat transfer, radiator thermostat points",
-        "unit": ""
+        "description": "Heat transfer, radiator thermostat points"
       },
       "373": {
         "datatype": "A",
-        "description": "Heat transfer, type of underfloor heating",
-        "unit": ""
+        "description": "Heat transfer, type of underfloor heating"
       },
       "374": {
         "datatype": "N",
-        "description": "Heat transfer, underfloor heating points",
-        "unit": ""
+        "description": "Heat transfer, underfloor heating points"
       },
       "380": {
         "datatype": "N",
@@ -1362,38 +1304,31 @@
       },
       "381": {
         "datatype": "N",
-        "description": "Renewable energy, points",
-        "unit": ""
+        "description": "Renewable energy, points"
       },
       "390": {
         "datatype": "Z",
-        "description": "Modernization recommendations heat generator",
-        "unit": ""
+        "description": "Modernization recommendations heat generator"
       },
       "391": {
         "datatype": "Z",
-        "description": "Modernization recommendations domestic hot water preparation",
-        "unit": ""
+        "description": "Modernization recommendations domestic hot water preparation"
       },
       "392": {
         "datatype": "Z",
-        "description": "Modernization recommendations heat and domestic hot water distribution",
-        "unit": ""
+        "description": "Modernization recommendations heat and domestic hot water distribution"
       },
       "393": {
         "datatype": "Z",
-        "description": "Modernization recommendations heat transfer",
-        "unit": ""
+        "description": "Modernization recommendations heat transfer"
       },
       "394": {
         "datatype": "Z",
-        "description": "Modernization recommendations renewable energy",
-        "unit": ""
+        "description": "Modernization recommendations renewable energy"
       },
       "395": {
         "datatype": "Z",
-        "description": "Additional remarks on the assessment of the system",
-        "unit": ""
+        "description": "Additional remarks on the assessment of the system"
       }
     },
     "10.x": {
@@ -1436,125 +1371,101 @@
     "11": {
       "23": {
         "datatype": "D",
-        "description": "Inspection date",
-        "unit": ""
+        "description": "Inspection date"
       },
       "22": {
         "datatype": "U",
-        "description": "Inspection time",
-        "unit": ""
+        "description": "Inspection time"
       },
       "410": {
         "datatype": "P",
-        "description": "Combustion air / ventilation",
-        "unit": ""
+        "description": "Combustion air / ventilation"
       },
       "411": {
         "datatype": "P",
-        "description": "Stability of the device",
-        "unit": ""
+        "description": "Stability of the device"
       },
       "412": {
         "datatype": "P",
-        "description": "Mounting / clearances of the fireplace/system",
-        "unit": ""
+        "description": "Mounting / clearances of the fireplace/system"
       },
       "413": {
         "datatype": "P",
-        "description": "External or proper technical condition of the fireplace/system",
-        "unit": ""
+        "description": "External or proper technical condition of the fireplace/system"
       },
       "414": {
         "datatype": "P",
-        "description": "Burner / flue gas path",
-        "unit": ""
+        "description": "Burner / flue gas path"
       },
       "415": {
         "datatype": "P",
-        "description": "Flame pattern",
-        "unit": ""
+        "description": "Flame pattern"
       },
       "416": {
         "datatype": "P",
-        "description": "Silencer",
-        "unit": ""
+        "description": "Silencer"
       },
       "417": {
         "datatype": "P",
-        "description": "Existing heat storage volume sufficient",
-        "unit": ""
+        "description": "Existing heat storage volume sufficient"
       },
       "418": {
         "datatype": "P",
-        "description": "Distance from the chimney outlet to the roof sufficient",
-        "unit": ""
+        "description": "Distance from the chimney outlet to the roof sufficient"
       },
       "419": {
         "datatype": "P",
-        "description": "Distance to ventilation openings, windows and doors sufficient",
-        "unit": ""
+        "description": "Distance to ventilation openings, windows and doors sufficient"
       },
       "420": {
         "datatype": "P",
-        "description": "Firing system suitable for the fuels used",
-        "unit": ""
+        "description": "Firing system suitable for the fuels used"
       },
       "421": {
         "datatype": "P",
-        "description": "Flue gas extraction at the draft hood",
-        "unit": ""
+        "description": "Flue gas extraction at the draft hood"
       },
       "422": {
         "datatype": "P",
-        "description": "Flue gas extraction at the appliance or at burner height",
-        "unit": ""
+        "description": "Flue gas extraction at the appliance or at burner height"
       },
       "423": {
         "datatype": "P",
-        "description": "Flue gas extraction at the flue gas connector",
-        "unit": ""
+        "description": "Flue gas extraction at the flue gas connector"
       },
       "424": {
         "datatype": "P",
-        "description": "Flue gas extraction at the silencer",
-        "unit": ""
+        "description": "Flue gas extraction at the silencer"
       },
       "425": {
         "datatype": "P",
-        "description": "Flue gas extraction at another location",
-        "unit": ""
+        "description": "Flue gas extraction at another location"
       },
       "426": {
         "datatype": "P",
-        "description": "Flue damper",
-        "unit": ""
+        "description": "Flue damper"
       },
       "427": {
         "datatype": "P",
-        "description": "Flue gas connector piece",
-        "unit": ""
+        "description": "Flue gas connector piece"
       },
       "428": {
         "datatype": "P",
-        "description": "Flue gas duct",
-        "unit": ""
+        "description": "Flue gas duct"
       },
       "395": {
         "datatype": "Z",
-        "description": "Comment",
-        "unit": ""
+        "description": "Comment"
       }
     },
     "0": {
       "23": {
         "datatype": "D",
-        "description": "Measurement date",
-        "unit": ""
+        "description": "Measurement date"
       },
       "22": {
         "datatype": "U",
-        "description": "Measurement time",
-        "unit": ""
+        "description": "Measurement time"
       },
       "440": {
         "datatype": "N",
@@ -1578,8 +1489,7 @@
       },
       "444": {
         "datatype": "Z",
-        "description": "Regulator number",
-        "unit": ""
+        "description": "Regulator number"
       },
       "450": {
         "datatype": "N",
@@ -1648,8 +1558,7 @@
       },
       "463": {
         "datatype": "N",
-        "description": "Relative viscosity of the test medium relative to the operating medium",
-        "unit": ""
+        "description": "Relative viscosity of the test medium relative to the operating medium"
       },
       "464": {
         "datatype": "N",
@@ -1703,8 +1612,7 @@
       },
       "474": {
         "datatype": "Z",
-        "description": "Pipe material",
-        "unit": ""
+        "description": "Pipe material"
       },
       "475": {
         "datatype": "N",
@@ -1835,13 +1743,11 @@
     "33": {
       "23": {
         "datatype": "D",
-        "description": "Measurement date",
-        "unit": ""
+        "description": "Measurement date"
       },
       "22": {
         "datatype": "U",
-        "description": "Measurement time",
-        "unit": ""
+        "description": "Measurement time"
       },
       "550": {
         "datatype": "N",
