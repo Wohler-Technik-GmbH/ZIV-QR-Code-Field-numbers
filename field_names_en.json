@@ -1895,8 +1895,7 @@
       },
       "500": {
         "datatype": "Z",
-        "description": "Refrigerant",
-        "value_mapping": "refrigerant"
+        "description": "Refrigerant"
       }
     }
   },
@@ -2117,137 +2116,6 @@
       },
       "5": {
         "description": "> 1000 l"
-      }
-    },
-    "refrigerant": {
-      "0": {
-        "description": "R1233zd(E)"
-      },
-      "1": {
-        "description": "R1234yf"
-      },
-      "2": {
-        "description": "R1234ze(E)"
-      },
-      "3": {
-        "description": "R125"
-      },
-      "4": {
-        "description": "R1270"
-      },
-      "5": {
-        "description": "R134a"
-      },
-      "6": {
-        "description": "R152a"
-      },
-      "7": {
-        "description": "R1390"
-      },
-      "8": {
-        "description": "R227ea"
-      },
-      "9": {
-        "description": "R236fa"
-      },
-      "10": {
-        "description": "R23"
-      },
-      "11": {
-        "description": "R245fa"
-      },
-      "12": {
-        "description": "R290"
-      },
-      "13": {
-        "description": "R32"
-      },
-      "14": {
-        "description": "R404A"
-      },
-      "15": {
-        "description": "R407C"
-      },
-      "16": {
-        "description": "R407F"
-      },
-      "17": {
-        "description": "R410A"
-      },
-      "18": {
-        "description": "R417A"
-      },
-      "19": {
-        "description": "R422A"
-      },
-      "20": {
-        "description": "R422D"
-      },
-      "21": {
-        "description": "R437A"
-      },
-      "22": {
-        "description": "R438A"
-      },
-      "23": {
-        "description": "R441A"
-      },
-      "24": {
-        "description": "R443A"
-      },
-      "25": {
-        "description": "R448A"
-      },
-      "26": {
-        "description": "R449A"
-      },
-      "27": {
-        "description": "R450A"
-      },
-      "28": {
-        "description": "R452A"
-      },
-      "29": {
-        "description": "R452B"
-      },
-      "30": {
-        "description": "R454A"
-      },
-      "31": {
-        "description": "R454B"
-      },
-      "32": {
-        "description": "R454C"
-      },
-      "33": {
-        "description": "R455A"
-      },
-      "34": {
-        "description": "R507A"
-      },
-      "35": {
-        "description": "R508B"
-      },
-      "36": {
-        "description": "R513A"
-      },
-      "37": {
-        "description": "R600a"
-      },
-      "38": {
-        "description": "R600"
-      },
-      "39": {
-        "description": "R717"
-      },
-      "40": {
-        "description": "R744"
-      },
-      "41": {
-        "description": "RE170"
-      },
-      "42": {
-        "description": "R718"
       }
     },
     "unit": {
