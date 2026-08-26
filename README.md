@@ -1,21 +1,33 @@
-# Data structure of the Woehler QR code
+# Data Structure of the Woehler QR Code
 
 ## General structure
-A QR code always has the same structure. The first lines and field numbers, as well as the last line and field number, are general field numbers. They are the same in every QR code. The correct order and presence of the general field numbers can be used to verify the general validity of the QR code.
+A QR code always has the same structure.
+The first lines and field numbers, as well as the last line and field number, are general field numbers.
+They are the same in every QR code.
+The correct order and presence of the general field numbers can be used to verify the QR code's general validity.
 
-A validity marker is inserted between the field number and the payload. The validity marker is a single letter. The meaning of the individual letters is described in the "Validity markers" table.
+A validity marker is inserted between the field number and the payload.
+The validity marker is a single letter.
+The meaning of the individual letters is described in the "Validity markers" table.
 
-Every line of text contained in the QR code has the same structure. Each line starts with a field number, followed by a validity marker and the payload. The only exception is the last line, which starts with field number 20. This last line has no payload and signals the end of the transmission.
-All lines are terminated by the line feed character (LF, ASCII 0x0A, '\n'). The payload may also contain an LF; in this case, the LF is replaced by the string "\n".
+Every line of text contained in the QR code has the same structure.
+Each line starts with a field number, followed by a validity marker and the payload.
+The only exception is the last line, which starts with field number 20.
+This line has no payload and signals the end of the transmission.
+All lines are terminated by the line feed character (LF, ASCII 0x0A, `\n`).
+The payload may also contain an LF; in this case, the LF is replaced by the string "\n".
 
 The general field numbers are described in the JSON file under `general_field`.
 The data types of the field numbers are described in the JSON file under `datatype`.
 The section names are described in the JSON file under `section_title`.
 
-The JSON file does not contain field numbers for every section number listed under `section_title`.
-Since many pressure measurements use the same field numbers, these field numbers are not listed separately for every section number in the JSON file. Field numbers used in multiple sections are listed under section number 0.
+The JSON file does not contain field numbers for every section listed under `section_title`.
+Since many pressure measurements use the same field numbers, these field numbers are not listed separately for every section in the JSON file.
+Field numbers used in multiple sections are listed under section 0.
 
-Please note that a missing field number in a measurement does not mean that the measurement is invalid. Some measurements do not contain all field numbers. In such cases, the missing field numbers are not relevant.
+Please note that a missing field number in a measurement does not mean that the measurement is invalid.
+Some measurements do not contain all field numbers.
+In such cases, the missing field numbers are not relevant.
 
 ### General field numbers
 |Field number|Data type|Description|
@@ -27,20 +39,23 @@ Please note that a missing field number in a measurement does not mean that the 
 |20|S|End of transmission|
 
 ### Data types
-A data type is always assigned to a field number. The possible data types are described in the following table.
+A data type is always assigned to a field number.
+The possible data types are described in the following table.
 
 |Data type|Description|Format|Example|
 |---------|-----------|------|-------|
 |Z|Text string|Any characters|Hello World|
 |D|Date|YYYYMMDD|20210930|
 |U|Time|HH:MM|10:39|
-|N|Numeric value|`NaN`, a sign and a decimal point are allowed<br>Leading zeroes may be omitted, including for negative values|9; -9; -99.999; .99; -.99; NaN|
-|L|List of numeric values|Numeric values separated by tabs (`\t`, ASCII 0x09)<br>Data type N applies to each value|1\t2\t3|
+|N|Numeric value|Values with a sign and a decimal point are allowed<br>Leading zeroes may be omitted, including for negative values<br>Special value `NaN` represents "Not a Number"|9<br>-9<br>-99.999<br>.99<br>-.99<br>NaN|
+|L|List of numeric values|Numeric values separated by tabs<br>(`\t`, ASCII 0x09)<br>Data type N applies to each value|1\t2\t3|
 |P|Checkpoint|0: Not checked, no result available<br>1: OK / unrestricted serviceable<br>2: Not OK / not serviceable<br>3: Conditionally OK / reduced serviceability|1|
 |S|Control field without payload|---|---|
 
 ### Validity markers
-A validity marker is inserted between the field number and the payload. The validity marker is a single letter. The meaning of the individual letters is described in the following table.
+A validity marker is inserted between the field number and the payload.
+The validity marker is a single letter.
+The meaning of the individual letters is described in the following table.
 
 |Validity marker|Meaning|
 |---------------|-------|
@@ -48,8 +63,32 @@ A validity marker is inserted between the field number and the payload. The vali
 |N|Invalid data|
 
 ___
-## QR code example
-The following QR code contains the data from a leak test on a gas pipe. The data contains four sections. The first section contains device information, the second section contains customer information, the third section contains project data, and the fourth section contains the test results.
+## Value Mappings and Units
+Some field numbers have associated value mappings that define the possible values and their meanings.
+Other field numbers may have associated units that define the measurement units for the data.
+These value mappings help interpret the data correctly, while the associated units identify the measurement units.
+
+### Example
+Field number `172` in section `0` has an associated value mapping called `result_state`.
+The possible values are found in the `value_mapping` section, and their meanings are as follows:
+
+|Value|Meaning|
+|-----|-------|
+|0|Not checked, no result available|
+|1|OK / unrestricted serviceable|
+|2|Not OK / not serviceable|
+|3|Conditionally OK / reduced serviceability|
+
+Field number `450` in section `0` has the associated unit `hPa`.
+Note that the key `unit` directly indicates the measurement unit for the associated field.
+There is also a `unit` value mapping in the `value_mapping` section.
+Field number `109` in section `1` is a special case used to specify a global pressure unit.
+This field number shows the global unit setting configured on the device and is not relevant to individual field units in the QR code.
+___
+## QR Code Example
+The following QR code contains the data from a leak test on a gas pipe.
+The data contains four sections.
+The first section contains device information, the second section contains customer information, the third section contains project data, and the fourth section contains the test results.
 
 ```text
 1G2                 # General field number: start of transmission, protocol version 2
