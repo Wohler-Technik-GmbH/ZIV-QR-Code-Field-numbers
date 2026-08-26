@@ -1283,7 +1283,8 @@
       },
       "371": {
         "datatype": "P",
-        "description": "Heat transfer, radiator thermostat installation"
+        "description": "Heat transfer, radiator thermostat installation",
+        "value_mapping": "result_state"
       },
       "372": {
         "datatype": "N",
@@ -1379,79 +1380,98 @@
       },
       "410": {
         "datatype": "P",
-        "description": "Combustion air / ventilation"
+        "description": "Combustion air / ventilation",
+        "value_mapping": "result_state"
       },
       "411": {
         "datatype": "P",
-        "description": "Stability of the device"
+        "description": "Stability of the device",
+        "value_mapping": "result_state"
       },
       "412": {
         "datatype": "P",
-        "description": "Mounting / clearances of the fireplace/system"
+        "description": "Mounting / clearances of the fireplace/system",
+        "value_mapping": "result_state"
       },
       "413": {
         "datatype": "P",
-        "description": "External or proper technical condition of the fireplace/system"
+        "description": "External or proper technical condition of the fireplace/system",
+        "value_mapping": "result_state"
       },
       "414": {
         "datatype": "P",
-        "description": "Burner / flue gas path"
+        "description": "Burner / flue gas path",
+        "value_mapping": "result_state"
       },
       "415": {
         "datatype": "P",
-        "description": "Flame pattern"
+        "description": "Flame pattern",
+        "value_mapping": "result_state"
       },
       "416": {
         "datatype": "P",
-        "description": "Silencer"
+        "description": "Silencer",
+        "value_mapping": "result_state"
       },
       "417": {
         "datatype": "P",
-        "description": "Existing heat storage volume sufficient"
+        "description": "Existing heat storage volume sufficient",
+        "value_mapping": "result_state"
       },
       "418": {
         "datatype": "P",
-        "description": "Distance from the chimney outlet to the roof sufficient"
+        "description": "Distance from the chimney outlet to the roof sufficient",
+        "value_mapping": "result_state"
       },
       "419": {
         "datatype": "P",
-        "description": "Distance to ventilation openings, windows and doors sufficient"
+        "description": "Distance to ventilation openings, windows and doors sufficient",
+        "value_mapping": "result_state"
       },
       "420": {
         "datatype": "P",
-        "description": "Firing system suitable for the fuels used"
+        "description": "Firing system suitable for the fuels used",
+        "value_mapping": "result_state"
       },
       "421": {
         "datatype": "P",
-        "description": "Flue gas extraction at the draft hood"
+        "description": "Flue gas extraction at the draft hood",
+        "value_mapping": "result_state"
       },
       "422": {
         "datatype": "P",
-        "description": "Flue gas extraction at the appliance or at burner height"
+        "description": "Flue gas extraction at the appliance or at burner height",
+        "value_mapping": "result_state"
       },
       "423": {
         "datatype": "P",
-        "description": "Flue gas extraction at the flue gas connector"
+        "description": "Flue gas extraction at the flue gas connector",
+        "value_mapping": "result_state"
       },
       "424": {
         "datatype": "P",
-        "description": "Flue gas extraction at the silencer"
+        "description": "Flue gas extraction at the silencer",
+        "value_mapping": "result_state"
       },
       "425": {
         "datatype": "P",
-        "description": "Flue gas extraction at another location"
+        "description": "Flue gas extraction at another location",
+        "value_mapping": "result_state"
       },
       "426": {
         "datatype": "P",
-        "description": "Flue damper"
+        "description": "Flue damper",
+        "value_mapping": "result_state"
       },
       "427": {
         "datatype": "P",
-        "description": "Flue gas connector piece"
+        "description": "Flue gas connector piece",
+        "value_mapping": "result_state"
       },
       "428": {
         "datatype": "P",
-        "description": "Flue gas duct"
+        "description": "Flue gas duct",
+        "value_mapping": "result_state"
       },
       "395": {
         "datatype": "Z",

@@ -1283,7 +1283,8 @@
       },
       "371": {
         "datatype": "P",
-        "description": "Wärmeübergabe, Montage des Heizkörperthermostats"
+        "description": "Wärmeübergabe, Montage des Heizkörperthermostats",
+        "value_mapping": "result_state"
       },
       "372": {
         "datatype": "N",
@@ -1379,79 +1380,98 @@
       },
       "410": {
         "datatype": "P",
-        "description": "Verbrennungsluft / Lüftung"
+        "description": "Verbrennungsluft / Lüftung",
+        "value_mapping": "result_state"
       },
       "411": {
         "datatype": "P",
-        "description": "Standsicherheit des Geräts"
+        "description": "Standsicherheit des Geräts",
+        "value_mapping": "result_state"
       },
       "412": {
         "datatype": "P",
-        "description": "Befestigung / Abstände der Feuerstätte"
+        "description": "Befestigung / Abstände der Feuerstätte",
+        "value_mapping": "result_state"
       },
       "413": {
         "datatype": "P",
-        "description": "Äußerer bzw. ordnungsgemäßer technischer Zustand der Feuerstätte"
+        "description": "Äußerer bzw. ordnungsgemäßer technischer Zustand der Feuerstätte",
+        "value_mapping": "result_state"
       },
       "414": {
         "datatype": "P",
-        "description": "Brenner / Heizgasweg"
+        "description": "Brenner / Heizgasweg",
+        "value_mapping": "result_state"
       },
       "415": {
         "datatype": "P",
-        "description": "Flammenbild"
+        "description": "Flammenbild",
+        "value_mapping": "result_state"
       },
       "416": {
         "datatype": "P",
-        "description": "Schalldämpfer"
+        "description": "Schalldämpfer",
+        "value_mapping": "result_state"
       },
       "417": {
         "datatype": "P",
-        "description": "Vorhandenes Wärmespeichervolumen ausreichend"
+        "description": "Vorhandenes Wärmespeichervolumen ausreichend",
+        "value_mapping": "result_state"
       },
       "418": {
         "datatype": "P",
-        "description": "Abstand der Austrittsöffnung des Schornsteins zum Dach ausreichend"
+        "description": "Abstand der Austrittsöffnung des Schornsteins zum Dach ausreichend",
+        "value_mapping": "result_state"
       },
       "419": {
         "datatype": "P",
-        "description": "Abstand zu Lüftungsöffnungen, Fenstern und Türen ausreichend"
+        "description": "Abstand zu Lüftungsöffnungen, Fenstern und Türen ausreichend",
+        "value_mapping": "result_state"
       },
       "420": {
         "datatype": "P",
-        "description": "Feuerungsanlage für verwendete Brennstoffe geeignet"
+        "description": "Feuerungsanlage für verwendete Brennstoffe geeignet",
+        "value_mapping": "result_state"
       },
       "421": {
         "datatype": "P",
-        "description": "Abgasabzug an der Strömungssicherung"
+        "description": "Abgasabzug an der Strömungssicherung",
+        "value_mapping": "result_state"
       },
       "422": {
         "datatype": "P",
-        "description": "Abgasabzug am Gerät bzw. in Brennerhöhe"
+        "description": "Abgasabzug am Gerät bzw. in Brennerhöhe",
+        "value_mapping": "result_state"
       },
       "423": {
         "datatype": "P",
-        "description": "Abgasabzug am Abgasstutzen"
+        "description": "Abgasabzug am Abgasstutzen",
+        "value_mapping": "result_state"
       },
       "424": {
         "datatype": "P",
-        "description": "Abgasabzug am Schalldämpfer"
+        "description": "Abgasabzug am Schalldämpfer",
+        "value_mapping": "result_state"
       },
       "425": {
         "datatype": "P",
-        "description": "Abgasabzug an anderer Stelle"
+        "description": "Abgasabzug an anderer Stelle",
+        "value_mapping": "result_state"
       },
       "426": {
         "datatype": "P",
-        "description": "Abgasklappe"
+        "description": "Abgasklappe",
+        "value_mapping": "result_state"
       },
       "427": {
         "datatype": "P",
-        "description": "Abgas-Verbindungsstück"
+        "description": "Abgas-Verbindungsstück",
+        "value_mapping": "result_state"
       },
       "428": {
         "datatype": "P",
-        "description": "Abgasleitung"
+        "description": "Abgasleitung",
+        "value_mapping": "result_state"
       },
       "395": {
         "datatype": "Z",
