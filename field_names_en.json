@@ -1,0 +1,2215 @@
+{
+  "version": "2.1.0",
+  "general_field": {
+    "1": {
+      "datatype": "N",
+      "description": "Protocol version"
+    },
+    "3": {
+      "datatype": "N",
+      "description": "Number of QR codes"
+    },
+    "4": {
+      "datatype": "N",
+      "description": "Current QR code"
+    },
+    "5": {
+      "datatype": "N",
+      "description": "Section identifier"
+    },
+    "20": {
+      "datatype": "S",
+      "description": "End of transmission"
+    }
+  },
+  "datatype": {
+    "Z": {
+      "description": "Text string"
+    },
+    "D": {
+      "description": "Date (YYYYMMDD)"
+    },
+    "U": {
+      "description": "Time (HH:MM)"
+    },
+    "L": {
+      "description": "List of numeric values"
+    },
+    "N": {
+      "description": "Numeric value"
+    },
+    "P": {
+      "description": "Checkpoint"
+    },
+    "S": {
+      "description": "Control field without data"
+    }
+  },
+  "section_title": {
+    "1": {
+      "description": "Device information"
+    },
+    "2": {
+      "description": "Customer data"
+    },
+    "3": {
+      "description": "Fireplace / project data"
+    },
+    "4": {
+      "description": "Boiler data"
+    },
+    "5": {
+      "description": "Fuel data"
+    },
+    "6": {
+      "description": "Inspector data"
+    },
+    "7": {
+      "description": "Measurement on oil/gas boiler"
+    },
+    "8": {
+      "description": "Measurement on solid fuel boiler"
+    },
+    "9": {
+      "description": "Negative pressure test"
+    },
+    "10": {
+      "description": "General heating check"
+    },
+    "11": {
+      "description": "Visual inspection"
+    },
+    "20": {
+      "description": "Load test gas pipes"
+    },
+    "21": {
+      "description": "Leak test gas pipes"
+    },
+    "22": {
+      "description": "Serviceability test gas pipes"
+    },
+    "23": {
+      "description": "Leak test drinking water pipes"
+    },
+    "24": {
+      "description": "Load test drinking water pipes"
+    },
+    "25": {
+      "description": "Pressure test drinking water pipes"
+    },
+    "26": {
+      "description": "Strength test press-fit connections drinking water"
+    },
+    "27": {
+      "description": "Leak test wastewater pipes"
+    },
+    "28": {
+      "description": "Leak test heating/cooling systems (air/inert gas)"
+    },
+    "29": {
+      "description": "Load test heating/cooling systems (air/inert gas)"
+    },
+    "30": {
+      "description": "Pressure test heating/cooling systems (water)"
+    },
+    "31": {
+      "description": "Strength test liquefied gas systems"
+    },
+    "32": {
+      "description": "Leak test liquefied gas systems"
+    },
+    "33": {
+      "description": "Refrigeration circuit"
+    },
+    "34": {
+      "description": "Leak test refrigeration system"
+    },
+    "35": {
+      "description": "Vacuum test refrigeration system"
+    },
+    "36": {
+      "description": "Volume measurement"
+    },
+    "37": {
+      "description": "Controller test"
+    },
+    "50": {
+      "description": "UNI 7129"
+    },
+    "51": {
+      "description": "UNI 11528"
+    },
+    "52": {
+      "description": "UNI 11137"
+    },
+    "53": {
+      "description": "Leak test gas valve"
+    },
+    "54": {
+      "description": "Leak test flue gas ducts"
+    }
+  },
+  "section_data": {
+    "1": {
+      "100": {
+        "datatype": "Z",
+        "description": "Device manufacturer"
+      },
+      "101": {
+        "datatype": "Z",
+        "description": "Device type"
+      },
+      "102": {
+        "datatype": "Z",
+        "description": "Device serial number"
+      },
+      "103": {
+        "datatype": "Z",
+        "description": "Certification information"
+      },
+      "104": {
+        "datatype": "Z",
+        "description": "Properties"
+      },
+      "105": {
+        "datatype": "D",
+        "description": "Date of last inspection"
+      },
+      "106": {
+        "datatype": "Z",
+        "description": "Test center"
+      },
+      "107": {
+        "datatype": "Z",
+        "description": "Measuring instrument identification number"
+      },
+      "108": {
+        "datatype": "Z",
+        "description": "Software version"
+      },
+      "109": {
+        "datatype": "N",
+        "description": "Woehler unit identifier",
+        "value_mapping": "unit"
+      }
+    },
+    "2": {
+      "120": {
+        "datatype": "Z",
+        "description": "Name"
+      },
+      "121": {
+        "datatype": "Z",
+        "description": "Company"
+      },
+      "122": {
+        "datatype": "Z",
+        "description": "Street"
+      },
+      "123": {
+        "datatype": "Z",
+        "description": "Postal code"
+      },
+      "124": {
+        "datatype": "Z",
+        "description": "City"
+      },
+      "125": {
+        "datatype": "Z",
+        "description": "Country"
+      },
+      "126": {
+        "datatype": "Z",
+        "description": "Phone number"
+      },
+      "127": {
+        "datatype": "Z",
+        "description": "Fax number"
+      },
+      "128": {
+        "datatype": "Z",
+        "description": "Email address"
+      },
+      "25": {
+        "datatype": "Z",
+        "description": "Unique ID for customer assignment"
+      }
+    },
+    "3": {
+      "27": {
+        "datatype": "Z",
+        "description": "Fireplace ID / project ID"
+      },
+      "120": {
+        "datatype": "Z",
+        "description": "Name"
+      },
+      "121": {
+        "datatype": "Z",
+        "description": "Company"
+      },
+      "122": {
+        "datatype": "Z",
+        "description": "Street"
+      },
+      "123": {
+        "datatype": "Z",
+        "description": "Postal code"
+      },
+      "124": {
+        "datatype": "Z",
+        "description": "City"
+      },
+      "125": {
+        "datatype": "Z",
+        "description": "Country"
+      },
+      "126": {
+        "datatype": "Z",
+        "description": "Phone number"
+      },
+      "127": {
+        "datatype": "Z",
+        "description": "Fax number"
+      },
+      "128": {
+        "datatype": "Z",
+        "description": "Email address"
+      },
+      "129": {
+        "datatype": "Z",
+        "description": "Installation location of the fireplace / system"
+      },
+      "26": {
+        "datatype": "N",
+        "description": "Unique number for assigning the fireplace / system to the respective customer"
+      }
+    },
+    "4": {
+      "140": {
+        "datatype": "Z",
+        "description": "Boiler manufacturer"
+      },
+      "141": {
+        "datatype": "Z",
+        "description": "Boiler type designation"
+      },
+      "142": {
+        "datatype": "N",
+        "description": "Year of manufacture of the boiler"
+      },
+      "143": {
+        "datatype": "N",
+        "description": "Nominal boiler output in kW"
+      },
+      "144": {
+        "datatype": "Z",
+        "description": "Burner manufacturer"
+      },
+      "145": {
+        "datatype": "Z",
+        "description": "Burner type designation"
+      },
+      "146": {
+        "datatype": "N",
+        "description": "Year of manufacture of the burner"
+      },
+      "147": {
+        "datatype": "Z",
+        "description": "System type"
+      },
+      "148": {
+        "datatype": "Z",
+        "description": "Burner design"
+      },
+      "149": {
+        "datatype": "Z",
+        "description": "Fireplace type"
+      },
+      "150": {
+        "datatype": "Z",
+        "description": "Air ducting"
+      },
+      "151": {
+        "datatype": "N",
+        "description": "Data changed or new?",
+        "value_mapping": "change_state"
+      }
+    },
+    "5": {
+      "31": {
+        "datatype": "Z",
+        "description": "Fuel designation"
+      },
+      "34": {
+        "datatype": "N",
+        "description": "Aggregate state",
+        "value_mapping": "aggregate_state"
+      },
+      "37": {
+        "datatype": "N",
+        "description": "A2 constant for flue gas loss"
+      },
+      "38": {
+        "datatype": "N",
+        "description": "B constant for flue gas loss"
+      },
+      "33": {
+        "datatype": "N",
+        "description": "CO2 max value for CO2 calculation in vol.-%"
+      },
+      "36": {
+        "datatype": "N",
+        "description": "Reference oxygen value in vol.-%"
+      },
+      "160": {
+        "datatype": "N",
+        "description": "Lower heating value in kWh/kg or kWh/m³"
+      },
+      "161": {
+        "datatype": "N",
+        "description": "Higher heating value, gross calorific value in kWh/kg or kWh/m³"
+      },
+      "162": {
+        "datatype": "N",
+        "description": "Air requirement in m³/kg or m³/m³"
+      },
+      "163": {
+        "datatype": "N",
+        "description": "Dry flue gas volume in m³/kg or m³/m³"
+      },
+      "164": {
+        "datatype": "N",
+        "description": "Wet flue gas volume in m³/kg or m³/m³"
+      },
+      "165": {
+        "datatype": "N",
+        "description": "Water content in kg/kg or kg/m³"
+      },
+      "32": {
+        "datatype": "N",
+        "description": "Unique number for assigning the fuel, see next table"
+      }
+    },
+    "6": {
+      "120": {
+        "datatype": "Z",
+        "description": "Name"
+      },
+      "121": {
+        "datatype": "Z",
+        "description": "Company"
+      },
+      "122": {
+        "datatype": "Z",
+        "description": "Street"
+      },
+      "123": {
+        "datatype": "Z",
+        "description": "Postal code"
+      },
+      "124": {
+        "datatype": "Z",
+        "description": "City"
+      },
+      "125": {
+        "datatype": "Z",
+        "description": "Country"
+      },
+      "126": {
+        "datatype": "Z",
+        "description": "Phone number"
+      },
+      "127": {
+        "datatype": "Z",
+        "description": "Fax number"
+      },
+      "128": {
+        "datatype": "Z",
+        "description": "Email address"
+      },
+      "28": {
+        "datatype": "N",
+        "description": "Unique number for assigning the inspector"
+      }
+    },
+    "7": {
+      "23": {
+        "datatype": "D",
+        "description": "Measurement date"
+      },
+      "22": {
+        "datatype": "U",
+        "description": "Measurement time"
+      },
+      "107": {
+        "datatype": "Z",
+        "description": "Measuring instrument identification number"
+      },
+      "36": {
+        "datatype": "N",
+        "description": "O2 reference value",
+        "unit": "Vol.-%"
+      },
+      "50": {
+        "datatype": "N",
+        "description": "O2 concentration",
+        "unit": "Vol.-%"
+      },
+      "92": {
+        "datatype": "N",
+        "description": "Lambda value"
+      },
+      "52": {
+        "datatype": "N",
+        "description": "CO2 concentration",
+        "unit": "Vol.-%"
+      },
+      "69": {
+        "datatype": "N",
+        "description": "CO concentration measured",
+        "unit": "ppm"
+      },
+      "71": {
+        "datatype": "N",
+        "description": "CO concentration measured",
+        "unit": "mg/m³"
+      },
+      "70": {
+        "datatype": "N",
+        "description": "CO concentration normalized",
+        "unit": "ppm"
+      },
+      "72": {
+        "datatype": "N",
+        "description": "CO concentration normalized",
+        "unit": "mg/m³"
+      },
+      "73": {
+        "datatype": "N",
+        "description": "CO concentration in mg/kWh",
+        "unit": "mg/kWh"
+      },
+      "57": {
+        "datatype": "N",
+        "description": "NO concentration measured",
+        "unit": "ppm"
+      },
+      "59": {
+        "datatype": "N",
+        "description": "NO concentration measured",
+        "unit": "mg/m³"
+      },
+      "56": {
+        "datatype": "N",
+        "description": "NO concentration normalized",
+        "unit": "ppm"
+      },
+      "60": {
+        "datatype": "N",
+        "description": "NO concentration normalized",
+        "unit": "mg/m³"
+      },
+      "61": {
+        "datatype": "N",
+        "description": "NO2 concentration measured",
+        "unit": "ppm"
+      },
+      "63": {
+        "datatype": "N",
+        "description": "NO2 concentration measured",
+        "unit": "mg/m³"
+      },
+      "62": {
+        "datatype": "N",
+        "description": "NO2 concentration normalized",
+        "unit": "ppm"
+      },
+      "64": {
+        "datatype": "N",
+        "description": "NO2 concentration normalized",
+        "unit": "mg/m³"
+      },
+      "200": {
+        "datatype": "N",
+        "description": "NOx concentration measured",
+        "unit": "ppm"
+      },
+      "201": {
+        "datatype": "N",
+        "description": "NOx concentration measured",
+        "unit": "mg/m³"
+      },
+      "202": {
+        "datatype": "N",
+        "description": "NOx concentration normalized",
+        "unit": "ppm"
+      },
+      "203": {
+        "datatype": "N",
+        "description": "NOx concentration normalized",
+        "unit": "mg/m³"
+      },
+      "65": {
+        "datatype": "N",
+        "description": "SO2 concentration measured",
+        "unit": "ppm"
+      },
+      "67": {
+        "datatype": "N",
+        "description": "SO2 concentration measured",
+        "unit": "mg/m³"
+      },
+      "66": {
+        "datatype": "N",
+        "description": "SO2 concentration normalized",
+        "unit": "ppm"
+      },
+      "68": {
+        "datatype": "N",
+        "description": "SO2 concentration normalized",
+        "unit": "mg/m³"
+      },
+      "40": {
+        "datatype": "N",
+        "description": "Combustion air temperature",
+        "unit": "°C"
+      },
+      "41": {
+        "datatype": "N",
+        "description": "Flue gas temperature",
+        "unit": "°C"
+      },
+      "90": {
+        "datatype": "N",
+        "description": "Flue gas loss",
+        "unit": "%"
+      },
+      "91": {
+        "datatype": "N",
+        "description": "Efficiency",
+        "unit": "%"
+      },
+      "93": {
+        "datatype": "N",
+        "description": "Flue gas dew point",
+        "unit": "°C"
+      },
+      "80": {
+        "datatype": "N",
+        "description": "Draft pressure / draft",
+        "unit": "Pa"
+      },
+      "81": {
+        "datatype": "N",
+        "description": "Draft pressure / draft",
+        "unit": "hPa, mbar"
+      },
+      "210": {
+        "datatype": "N",
+        "description": "O2 QA average measurement",
+        "unit": "Vol.-%"
+      },
+      "211": {
+        "datatype": "N",
+        "description": "Combustion air temperature QA average measurement",
+        "unit": "°C"
+      },
+      "212": {
+        "datatype": "N",
+        "description": "Flue gas temperature QA average measurement",
+        "unit": "°C"
+      },
+      "213": {
+        "datatype": "N",
+        "description": "Flue gas loss QA average measurement",
+        "unit": "%"
+      },
+      "214": {
+        "datatype": "N",
+        "description": "Expanded measurement uncertainty of flue gas loss QA average measurement",
+        "unit": "%"
+      },
+      "215": {
+        "datatype": "N",
+        "description": "Assessment value of flue gas loss QA average measurement",
+        "unit": "%"
+      },
+      "220": {
+        "datatype": "N",
+        "description": "O2 flue gas path test",
+        "unit": "Vol.-%"
+      },
+      "221": {
+        "datatype": "N",
+        "description": "CO flue gas path test measured",
+        "unit": "ppm"
+      },
+      "222": {
+        "datatype": "N",
+        "description": "CO flue gas path test normalized to 0% O2",
+        "unit": "ppm"
+      },
+      "230": {
+        "datatype": "N",
+        "description": "O2 reading in annular gap",
+        "unit": "Vol.-%"
+      },
+      "231": {
+        "datatype": "N",
+        "description": "O2 loss in annular gap",
+        "unit": "Vol.-%"
+      },
+      "232": {
+        "datatype": "N",
+        "description": "CO concentration in annular gap",
+        "unit": "ppm"
+      },
+      "233": {
+        "datatype": "N",
+        "description": "Pressure in annular gap",
+        "unit": "Pa"
+      },
+      "234": {
+        "datatype": "N",
+        "description": "Pressure in annular gap",
+        "unit": "hPa, mbar"
+      },
+      "235": {
+        "datatype": "N",
+        "description": "Temperature in annular gap",
+        "unit": "°C"
+      },
+      "82": {
+        "datatype": "L",
+        "description": "Soot number 1, 2, and 3"
+      },
+      "83": {
+        "datatype": "N",
+        "description": "Average soot number"
+      },
+      "84": {
+        "datatype": "P",
+        "description": "Oil derivatives",
+        "value_mapping": "oil_deriv_state"
+      },
+      "42": {
+        "datatype": "N",
+        "description": "Boiler or heat-transfer medium temperature",
+        "unit": "C"
+      },
+      "94": {
+        "datatype": "N",
+        "description": "pH value of condensate"
+      },
+      "240": {
+        "datatype": "N",
+        "description": "O2 reference value (44th Federal Immission Control Ordinance)",
+        "unit": "Vol.-%"
+      },
+      "241": {
+        "datatype": "N",
+        "description": "Duration of the individual measurement according to the 44th Federal Immission Control Ordinance in seconds",
+        "unit": "s"
+      },
+      "242": {
+        "datatype": "N",
+        "description": "O2 concentration (44th Federal Immission Control Ordinance)",
+        "unit": "Vol.-%"
+      },
+      "243": {
+        "datatype": "N",
+        "description": "Lambda value (44th Federal Immission Control Ordinance)"
+      },
+      "244": {
+        "datatype": "N",
+        "description": "CO2 concentration (44th Federal Immission Control Ordinance)",
+        "unit": "Vol.-%"
+      },
+      "245": {
+        "datatype": "N",
+        "description": "CO concentration measured (44th Federal Immission Control Ordinance)",
+        "unit": "ppm"
+      },
+      "246": {
+        "datatype": "N",
+        "description": "CO concentration normalized (44th Federal Immission Control Ordinance)",
+        "unit": "mg/m³"
+      },
+      "247": {
+        "datatype": "N",
+        "description": "Expanded measurement uncertainty of normalized CO concentration (44th Federal Immission Control Ordinance)",
+        "unit": "mg/m³"
+      },
+      "248": {
+        "datatype": "N",
+        "description": "Measured value minus expanded measurement uncertainty of normalized CO concentration (44th Federal Immission Control Ordinance)",
+        "unit": "mg/m³"
+      },
+      "249": {
+        "datatype": "N",
+        "description": "Measured value plus expanded measurement uncertainty of normalized CO concentration (44th Federal Immission Control Ordinance)",
+        "unit": "mg/m³"
+      },
+      "250": {
+        "datatype": "N",
+        "description": "NO concentration measured (44th Federal Immission Control Ordinance)",
+        "unit": "ppm"
+      },
+      "251": {
+        "datatype": "N",
+        "description": "NO concentration normalized (44th Federal Immission Control Ordinance)",
+        "unit": "mg/m³"
+      },
+      "252": {
+        "datatype": "N",
+        "description": "NO2 concentration measured (44th Federal Immission Control Ordinance)",
+        "unit": "ppm"
+      },
+      "253": {
+        "datatype": "N",
+        "description": "NO2 concentration normalized (44th Federal Immission Control Ordinance)",
+        "unit": "mg/m³"
+      },
+      "254": {
+        "datatype": "N",
+        "description": "NOx concentration measured (44th Federal Immission Control Ordinance)",
+        "unit": "ppm"
+      },
+      "255": {
+        "datatype": "N",
+        "description": "NOx concentration normalized (44th Federal Immission Control Ordinance)",
+        "unit": "mg/m³"
+      },
+      "256": {
+        "datatype": "N",
+        "description": "Expanded measurement uncertainty of normalized NOx concentration (44th Federal Immission Control Ordinance)",
+        "unit": "mg/m³"
+      },
+      "257": {
+        "datatype": "N",
+        "description": "Measured value minus expanded measurement uncertainty of normalized NOx concentration (44th Federal Immission Control Ordinance)",
+        "unit": "mg/m³"
+      },
+      "258": {
+        "datatype": "N",
+        "description": "Measured value plus expanded measurement uncertainty of normalized NOx concentration (44th Federal Immission Control Ordinance)",
+        "unit": "mg/m³"
+      },
+      "259": {
+        "datatype": "N",
+        "description": "NOx concentration normalized (44th Federal Immission Control Ordinance)",
+        "unit": "g/m³"
+      },
+      "260": {
+        "datatype": "N",
+        "description": "Expanded measurement uncertainty of normalized NOx concentration (44th Federal Immission Control Ordinance)",
+        "unit": "g/m³"
+      },
+      "261": {
+        "datatype": "N",
+        "description": "Measured value minus expanded measurement uncertainty of normalized NOx concentration (44th Federal Immission Control Ordinance)",
+        "unit": "g/m³"
+      },
+      "262": {
+        "datatype": "N",
+        "description": "Measured value plus expanded measurement uncertainty of normalized NOx concentration (44th Federal Immission Control Ordinance)",
+        "unit": "g/m³"
+      },
+      "263": {
+        "datatype": "N",
+        "description": "SO2 concentration measured (44th Federal Immission Control Ordinance)",
+        "unit": "ppm"
+      },
+      "264": {
+        "datatype": "N",
+        "description": "SO2 concentration normalized (44th Federal Immission Control Ordinance)",
+        "unit": "mg/m³"
+      },
+      "265": {
+        "datatype": "N",
+        "description": "Combustion air temperature (44th Federal Immission Control Ordinance)",
+        "unit": "°C"
+      },
+      "266": {
+        "datatype": "N",
+        "description": "Flue gas temperature (44th Federal Immission Control Ordinance)",
+        "unit": "°C"
+      },
+      "267": {
+        "datatype": "N",
+        "description": "Flue gas loss (44th Federal Immission Control Ordinance)",
+        "unit": "%"
+      },
+      "268": {
+        "datatype": "N",
+        "description": "Efficiency (44th Federal Immission Control Ordinance)",
+        "unit": "%"
+      },
+      "269": {
+        "datatype": "N",
+        "description": "Flue gas dew point (44th Federal Immission Control Ordinance)",
+        "unit": "°C"
+      }
+    },
+    "8": {
+      "23": {
+        "datatype": "D",
+        "description": "Measurement date"
+      },
+      "22": {
+        "datatype": "U",
+        "description": "Measurement time"
+      },
+      "107": {
+        "datatype": "Z",
+        "description": "Measuring instrument identification number"
+      },
+      "36": {
+        "datatype": "N",
+        "description": "O2 reference value",
+        "unit": "Vol.-%"
+      },
+      "241": {
+        "datatype": "N",
+        "description": "Measurement duration in seconds",
+        "unit": "s"
+      },
+      "50": {
+        "datatype": "N",
+        "description": "O2 concentration",
+        "unit": "Vol.-%"
+      },
+      "69": {
+        "datatype": "N",
+        "description": "CO concentration measured",
+        "unit": "ppm"
+      },
+      "280": {
+        "datatype": "N",
+        "description": "CO concentration normalized",
+        "unit": "g/m³"
+      },
+      "281": {
+        "datatype": "N",
+        "description": "Erweiterte Messunsicherheit CO-Konzentration normiert",
+        "unit": "g/m³"
+      },
+      "282": {
+        "datatype": "N",
+        "description": "Beurteilungswert CO-Konzentration normiert",
+        "unit": "g/m³"
+      },
+      "283": {
+        "datatype": "N",
+        "description": "Dust mass measured",
+        "unit": "mg"
+      },
+      "284": {
+        "datatype": "N",
+        "description": "Extracted flue gas volume",
+        "unit": "l"
+      },
+      "285": {
+        "datatype": "N",
+        "description": "Dust concentration measured",
+        "unit": "g/m³"
+      },
+      "286": {
+        "datatype": "N",
+        "description": "Dust concentration normalized",
+        "unit": "g/m³"
+      },
+      "287": {
+        "datatype": "N",
+        "description": "Expanded measurement uncertainty of dust concentration normalized",
+        "unit": "g/m³"
+      },
+      "288": {
+        "datatype": "N",
+        "description": "Assessment value of dust concentration normalized",
+        "unit": "g/m³"
+      },
+      "40": {
+        "datatype": "N",
+        "description": "Combustion air temperature",
+        "unit": "°C"
+      },
+      "41": {
+        "datatype": "N",
+        "description": "Flue gas temperature",
+        "unit": "°C"
+      },
+      "90": {
+        "datatype": "N",
+        "description": "Flue gas loss",
+        "unit": "%"
+      },
+      "80": {
+        "datatype": "N",
+        "description": "Draft pressure / draft",
+        "unit": "Pa"
+      },
+      "81": {
+        "datatype": "N",
+        "description": "Draft pressure / draft",
+        "unit": "hPa, mbar"
+      },
+      "42": {
+        "datatype": "N",
+        "description": "Boiler or heat-transfer medium temperature",
+        "unit": "°C"
+      },
+      "289": {
+        "datatype": "L",
+        "description": "List of individual moisture measurements",
+        "unit": "%"
+      },
+      "290": {
+        "datatype": "N",
+        "description": "Average fuel moisture",
+        "unit": "%"
+      },
+      "291": {
+        "datatype": "Z",
+        "description": "Filter or sleeve number"
+      },
+      "292": {
+        "datatype": "N",
+        "description": "Boiler load state",
+        "value_mapping": "boiler_load_state"
+      }
+    },
+    "9": {
+      "23": {
+        "datatype": "D",
+        "description": "Measurement date"
+      },
+      "22": {
+        "datatype": "U",
+        "description": "Measurement time"
+      },
+      "107": {
+        "datatype": "Z",
+        "description": "Measuring instrument identification number"
+      },
+      "170": {
+        "datatype": "N",
+        "description": "Maximum permissible pressure difference",
+        "unit": "Pa"
+      },
+      "241": {
+        "datatype": "N",
+        "description": "Measurement duration in seconds",
+        "unit": "s"
+      },
+      "171": {
+        "datatype": "L",
+        "description": "List of pressure readings, one per second",
+        "unit": "Pa"
+      },
+      "172": {
+        "datatype": "P",
+        "description": "Result",
+        "value_mapping": "result_state"
+      }
+    },
+    "10": {
+      "23": {
+        "datatype": "D",
+        "description": "Measurement date"
+      },
+      "22": {
+        "datatype": "U",
+        "description": "Measurement time"
+      },
+      "107": {
+        "datatype": "Z",
+        "description": "Measuring instrument identification number"
+      },
+      "300": {
+        "datatype": "N",
+        "description": "Residential building, year of construction"
+      },
+      "301": {
+        "datatype": "Z",
+        "description": "Residential building, thermal insulation standard"
+      },
+      "302": {
+        "datatype": "Z",
+        "description": "Residential building, building type"
+      },
+      "303": {
+        "datatype": "N",
+        "description": "Residential building, heated usable floor area",
+        "unit": "m²"
+      },
+      "304": {
+        "datatype": "N",
+        "description": "Residential building, number of dwelling units"
+      },
+      "310": {
+        "datatype": "N",
+        "description": "Surface loss, room temperature",
+        "unit": "°C"
+      },
+      "311": {
+        "datatype": "N",
+        "description": "Surface loss, number of subareas"
+      },
+      "312": {
+        "datatype": "N",
+        "description": "Surface loss, average temperature difference",
+        "unit": "°C"
+      },
+      "313": {
+        "datatype": "N",
+        "description": "Surface loss, total area",
+        "unit": "m²"
+      },
+      "314": {
+        "datatype": "N",
+        "description": "Surface loss, total heat flow",
+        "unit": "kW"
+      },
+      "315": {
+        "datatype": "N",
+        "description": "Surface loss",
+        "unit": "%"
+      },
+      "316": {
+        "datatype": "N",
+        "description": "Surface loss points"
+      },
+      "320": {
+        "datatype": "N",
+        "description": "Ventilation loss, duct cross section",
+        "unit": "cm²"
+      },
+      "321": {
+        "datatype": "N",
+        "description": "Ventilation loss, residual flue gas velocity",
+        "unit": "m/s"
+      },
+      "322": {
+        "datatype": "N",
+        "description": "Ventilation loss, residual flue gas temperature",
+        "unit": "°C"
+      },
+      "323": {
+        "datatype": "N",
+        "description": "Ventilation loss, air temperature",
+        "unit": "°C"
+      },
+      "324": {
+        "datatype": "N",
+        "description": "Ventilation loss, outside temperature",
+        "unit": "°C"
+      },
+      "325": {
+        "datatype": "N",
+        "description": "Ventilation loss, air pressure",
+        "unit": "hPa"
+      },
+      "326": {
+        "datatype": "N",
+        "description": "Ventilation loss",
+        "unit": "%"
+      },
+      "327": {
+        "datatype": "N",
+        "description": "Ventilation loss points"
+      },
+      "50": {
+        "datatype": "N",
+        "description": "Flue gas loss oxygen",
+        "unit": "Vol.-%"
+      },
+      "40": {
+        "datatype": "N",
+        "description": "Flue gas loss combustion air temperature",
+        "unit": "°C"
+      },
+      "41": {
+        "datatype": "N",
+        "description": "Flue gas loss flue gas temperature",
+        "unit": "°C"
+      },
+      "90": {
+        "datatype": "N",
+        "description": "Flue gas loss",
+        "unit": "%"
+      },
+      "329": {
+        "datatype": "N",
+        "description": "Flue gas loss points"
+      },
+      "330": {
+        "datatype": "N",
+        "description": "Heat generator, alternative assessment via boiler label, points"
+      },
+      "331": {
+        "datatype": "N",
+        "description": "Heat generator, condensing boiler present?",
+        "value_mapping": "logical_state"
+      },
+      "332": {
+        "datatype": "A",
+        "description": "Heat generator, system temperature setting"
+      },
+      "333": {
+        "datatype": "N",
+        "description": "Heat generator, condensing boiler points"
+      },
+      "334": {
+        "datatype": "A",
+        "description": "Heat generator, boiler sizing"
+      },
+      "335": {
+        "datatype": "N",
+        "description": "Heat generator, boiler sizing points"
+      },
+      "336": {
+        "datatype": "A",
+        "description": "Heat generator, type of district-heating transfer station"
+      },
+      "337": {
+        "datatype": "N",
+        "description": "Heat generator, district or local heating usage points"
+      },
+      "338": {
+        "datatype": "N",
+        "description": "Heat generator, air-to-water heat pump points"
+      },
+      "339": {
+        "datatype": "N",
+        "description": "Heat generator, brine-to-water or water-to-water heat pump points"
+      },
+      "340": {
+        "datatype": "N",
+        "description": "Heat generator, controlled or multi-stage heat pump or buffer tank present?",
+        "value_mapping": "logical_state"
+      },
+      "341": {
+        "datatype": "N",
+        "description": "Heat generator, total heat pump points"
+      },
+      "342": {
+        "datatype": "A",
+        "description": "Heat generator, type of solid-fuel boiler"
+      },
+      "343": {
+        "datatype": "A",
+        "description": "Heat generator, boiler modulating or buffer tank present"
+      },
+      "344": {
+        "datatype": "N",
+        "description": "Heat generator, solid-fuel boiler points"
+      },
+      "345": {
+        "datatype": "N",
+        "description": "Heat generator, base-load heat generator coverage share",
+        "unit": "%"
+      },
+      "346": {
+        "datatype": "A",
+        "description": "Heat generator, type of boiler thermostat"
+      },
+      "347": {
+        "datatype": "A",
+        "description": "Heat generator, boiler thermostat setting"
+      },
+      "348": {
+        "datatype": "N",
+        "description": "Heat generator, boiler thermostat points"
+      },
+      "350": {
+        "datatype": "A",
+        "description": "Domestic hot water preparation, type"
+      },
+      "351": {
+        "datatype": "N",
+        "description": "Domestic hot water preparation, gas appliance with continuously burning pilot flame?",
+        "value_mapping": "logical_state"
+      },
+      "352": {
+        "datatype": "N",
+        "description": "Domestic hot water preparation, additional small electric storage heater present?",
+        "value_mapping": "logical_state"
+      },
+      "353": {
+        "datatype": "N",
+        "description": "Domestic hot water preparation points"
+      },
+      "360": {
+        "datatype": "A",
+        "description": "Distribution, hydraulic balancing"
+      },
+      "361": {
+        "datatype": "N",
+        "description": "Distribution, hydraulic balancing points"
+      },
+      "362": {
+        "datatype": "A",
+        "description": "Distribution, pump sizing"
+      },
+      "363": {
+        "datatype": "N",
+        "description": "Distribution, pump sizing points"
+      },
+      "364": {
+        "datatype": "A",
+        "description": "Distribution, pipe insulation without central domestic hot water preparation"
+      },
+      "365": {
+        "datatype": "A",
+        "description": "Distribution, pipe insulation with central domestic hot water preparation"
+      },
+      "366": {
+        "datatype": "N",
+        "description": "Distribution, pipe insulation points"
+      },
+      "367": {
+        "datatype": "A",
+        "description": "Distribution, system temperatures"
+      },
+      "368": {
+        "datatype": "N",
+        "description": "Distribution, system temperature points"
+      },
+      "370": {
+        "datatype": "A",
+        "description": "Heat transfer, type of radiator thermostat"
+      },
+      "371": {
+        "datatype": "P",
+        "description": "Heat transfer, radiator thermostat installation",
+        "value_mapping": "result_state"
+      },
+      "372": {
+        "datatype": "N",
+        "description": "Heat transfer, radiator thermostat points"
+      },
+      "373": {
+        "datatype": "A",
+        "description": "Heat transfer, type of underfloor heating"
+      },
+      "374": {
+        "datatype": "N",
+        "description": "Heat transfer, underfloor heating points"
+      },
+      "380": {
+        "datatype": "N",
+        "description": "Renewable energy, use of renewable energy?",
+        "value_mapping": "logical_state"
+      },
+      "381": {
+        "datatype": "N",
+        "description": "Renewable energy, points"
+      },
+      "390": {
+        "datatype": "Z",
+        "description": "Modernization recommendations heat generator"
+      },
+      "391": {
+        "datatype": "Z",
+        "description": "Modernization recommendations domestic hot water preparation"
+      },
+      "392": {
+        "datatype": "Z",
+        "description": "Modernization recommendations heat and domestic hot water distribution"
+      },
+      "393": {
+        "datatype": "Z",
+        "description": "Modernization recommendations heat transfer"
+      },
+      "394": {
+        "datatype": "Z",
+        "description": "Modernization recommendations renewable energy"
+      },
+      "395": {
+        "datatype": "Z",
+        "description": "Additional remarks on the assessment of the system"
+      }
+    },
+    "10.x": {
+      "400": {
+        "datatype": "N",
+        "description": "Length of subarea",
+        "unit": "m"
+      },
+      "401": {
+        "datatype": "N",
+        "description": "Width of subarea",
+        "unit": "m"
+      },
+      "402": {
+        "datatype": "N",
+        "description": "Area of subarea",
+        "unit": "m²"
+      },
+      "403": {
+        "datatype": "L",
+        "description": "Individual temperature readings",
+        "unit": "°C"
+      },
+      "404": {
+        "datatype": "N",
+        "description": "Average temperature",
+        "unit": "°C"
+      },
+      "405": {
+        "datatype": "N",
+        "description": "Heat transfer coefficient",
+        "unit": "W/(m²*K)"
+      },
+      "406": {
+        "datatype": "N",
+        "description": "Heat flow through the subarea",
+        "unit": "kW"
+      }
+    },
+    "11": {
+      "23": {
+        "datatype": "D",
+        "description": "Inspection date"
+      },
+      "22": {
+        "datatype": "U",
+        "description": "Inspection time"
+      },
+      "410": {
+        "datatype": "P",
+        "description": "Combustion air / ventilation",
+        "value_mapping": "result_state"
+      },
+      "411": {
+        "datatype": "P",
+        "description": "Stability of the device",
+        "value_mapping": "result_state"
+      },
+      "412": {
+        "datatype": "P",
+        "description": "Mounting / clearances of the fireplace/system",
+        "value_mapping": "result_state"
+      },
+      "413": {
+        "datatype": "P",
+        "description": "External or proper technical condition of the fireplace/system",
+        "value_mapping": "result_state"
+      },
+      "414": {
+        "datatype": "P",
+        "description": "Burner / flue gas path",
+        "value_mapping": "result_state"
+      },
+      "415": {
+        "datatype": "P",
+        "description": "Flame pattern",
+        "value_mapping": "result_state"
+      },
+      "416": {
+        "datatype": "P",
+        "description": "Silencer",
+        "value_mapping": "result_state"
+      },
+      "417": {
+        "datatype": "P",
+        "description": "Existing heat storage volume sufficient",
+        "value_mapping": "result_state"
+      },
+      "418": {
+        "datatype": "P",
+        "description": "Distance from the chimney outlet to the roof sufficient",
+        "value_mapping": "result_state"
+      },
+      "419": {
+        "datatype": "P",
+        "description": "Distance to ventilation openings, windows and doors sufficient",
+        "value_mapping": "result_state"
+      },
+      "420": {
+        "datatype": "P",
+        "description": "Firing system suitable for the fuels used",
+        "value_mapping": "result_state"
+      },
+      "421": {
+        "datatype": "P",
+        "description": "Flue gas extraction at the draft hood",
+        "value_mapping": "result_state"
+      },
+      "422": {
+        "datatype": "P",
+        "description": "Flue gas extraction at the appliance or at burner height",
+        "value_mapping": "result_state"
+      },
+      "423": {
+        "datatype": "P",
+        "description": "Flue gas extraction at the flue gas connector",
+        "value_mapping": "result_state"
+      },
+      "424": {
+        "datatype": "P",
+        "description": "Flue gas extraction at the silencer",
+        "value_mapping": "result_state"
+      },
+      "425": {
+        "datatype": "P",
+        "description": "Flue gas extraction at another location",
+        "value_mapping": "result_state"
+      },
+      "426": {
+        "datatype": "P",
+        "description": "Flue damper",
+        "value_mapping": "result_state"
+      },
+      "427": {
+        "datatype": "P",
+        "description": "Flue gas connector piece",
+        "value_mapping": "result_state"
+      },
+      "428": {
+        "datatype": "P",
+        "description": "Flue gas duct",
+        "value_mapping": "result_state"
+      },
+      "395": {
+        "datatype": "Z",
+        "description": "Comment"
+      }
+    },
+    "0": {
+      "23": {
+        "datatype": "D",
+        "description": "Measurement date"
+      },
+      "22": {
+        "datatype": "U",
+        "description": "Measurement time"
+      },
+      "440": {
+        "datatype": "N",
+        "description": "Rest pressure",
+        "unit": "hPa, mbar"
+      },
+      "441": {
+        "datatype": "N",
+        "description": "Flow pressure",
+        "unit": "hPa, mbar"
+      },
+      "442": {
+        "datatype": "N",
+        "description": "Shut-off pressure 1",
+        "unit": "hPa, mbar"
+      },
+      "443": {
+        "datatype": "N",
+        "description": "Shut-off pressure 2",
+        "unit": "hPa, mbar"
+      },
+      "444": {
+        "datatype": "Z",
+        "description": "Regulator number"
+      },
+      "450": {
+        "datatype": "N",
+        "description": "Preset test pressure",
+        "unit": "hPa, mbar"
+      },
+      "451": {
+        "datatype": "N",
+        "description": "Preset test pressure",
+        "unit": "bar"
+      },
+      "452": {
+        "datatype": "N",
+        "description": "Preset test pressure",
+        "unit": "MPa"
+      },
+      "453": {
+        "datatype": "N",
+        "description": "Preset test duration in seconds",
+        "unit": "s"
+      },
+      "454": {
+        "datatype": "N",
+        "description": "Maximum permitted pressure drop",
+        "unit": "hPa, mbar"
+      },
+      "455": {
+        "datatype": "N",
+        "description": "Maximum permitted pressure drop",
+        "unit": "bar"
+      },
+      "456": {
+        "datatype": "N",
+        "description": "Maximum permitted pressure drop",
+        "unit": "MPa"
+      },
+      "457": {
+        "datatype": "N",
+        "description": "Maximum permitted pressure increase (for negative pressure tests)",
+        "unit": "hPa, mbar"
+      },
+      "458": {
+        "datatype": "N",
+        "description": "Maximum permitted pressure increase (for negative pressure tests)",
+        "unit": "bar"
+      },
+      "459": {
+        "datatype": "N",
+        "description": "Maximum permitted pressure increase (for negative pressure tests)",
+        "unit": "MPa"
+      },
+      "460": {
+        "datatype": "N",
+        "description": "Operating medium of the line",
+        "value_mapping": "medium"
+      },
+      "461": {
+        "datatype": "N",
+        "description": "Medium used for the measurement (test medium)",
+        "value_mapping": "medium"
+      },
+      "462": {
+        "datatype": "N",
+        "description": "Test procedure according to DIN EN 1610?",
+        "value_mapping": "test_procedure"
+      },
+      "463": {
+        "datatype": "N",
+        "description": "Relative viscosity of the test medium relative to the operating medium"
+      },
+      "464": {
+        "datatype": "N",
+        "description": "Operating pressure of the line",
+        "unit": "hPa, mbar"
+      },
+      "465": {
+        "datatype": "N",
+        "description": "Operating pressure of the line",
+        "unit": "bar"
+      },
+      "466": {
+        "datatype": "N",
+        "description": "Operating pressure of the line",
+        "unit": "MPa"
+      },
+      "467": {
+        "datatype": "N",
+        "description": "Ambient pressure",
+        "unit": "hPa, mbar"
+      },
+      "468": {
+        "datatype": "N",
+        "description": "Medium temperature",
+        "unit": "°C"
+      },
+      "469": {
+        "datatype": "N",
+        "description": "Ambient temperature",
+        "unit": "°C"
+      },
+      "470": {
+        "datatype": "N",
+        "description": "Pipe diameter",
+        "unit": "mm"
+      },
+      "471": {
+        "datatype": "N",
+        "description": "Pipe length",
+        "unit": "m"
+      },
+      "472": {
+        "datatype": "N",
+        "description": "Pipe volume",
+        "unit": "l"
+      },
+      "473": {
+        "datatype": "N",
+        "description": "Surface condition of the line?",
+        "value_mapping": "surface_condition"
+      },
+      "474": {
+        "datatype": "Z",
+        "description": "Pipe material"
+      },
+      "475": {
+        "datatype": "N",
+        "description": "Sample volume",
+        "unit": "ml"
+      },
+      "476": {
+        "datatype": "N",
+        "description": "Surface",
+        "unit": "m²"
+      },
+      "477": {
+        "datatype": "N",
+        "description": "Reference pressure",
+        "unit": "hPa, mbar"
+      },
+      "480": {
+        "datatype": "N",
+        "description": "Stabilization or settling duration in seconds",
+        "unit": "s"
+      },
+      "481": {
+        "datatype": "N",
+        "description": "Start pressure (beginning of measurement)",
+        "unit": "hPa, mbar"
+      },
+      "482": {
+        "datatype": "N",
+        "description": "Start pressure (beginning of measurement)",
+        "unit": "bar"
+      },
+      "483": {
+        "datatype": "N",
+        "description": "Start pressure (beginning of measurement)",
+        "unit": "MPa"
+      },
+      "484": {
+        "datatype": "N",
+        "description": "Stop pressure (end of measurement)",
+        "unit": "hPa, mbar"
+      },
+      "485": {
+        "datatype": "N",
+        "description": "Stop pressure (end of measurement)",
+        "unit": "bar"
+      },
+      "486": {
+        "datatype": "N",
+        "description": "Stop pressure (end of measurement)",
+        "unit": "MPa"
+      },
+      "487": {
+        "datatype": "N",
+        "description": "Pressure drop (start pressure - stop pressure)",
+        "unit": "hPa, mbar"
+      },
+      "488": {
+        "datatype": "N",
+        "description": "Pressure drop (start pressure - stop pressure)",
+        "unit": "bar"
+      },
+      "489": {
+        "datatype": "N",
+        "description": "Pressure drop (start pressure - stop pressure)",
+        "unit": "MPa"
+      },
+      "490": {
+        "datatype": "N",
+        "description": "Pressure increase (stop pressure - start pressure, for negative pressure tests)",
+        "unit": "hPa, mbar"
+      },
+      "491": {
+        "datatype": "N",
+        "description": "Pressure increase (stop pressure - start pressure, for negative pressure tests)",
+        "unit": "bar"
+      },
+      "492": {
+        "datatype": "N",
+        "description": "Pressure increase (stop pressure - start pressure, for negative pressure tests)",
+        "unit": "MPa"
+      },
+      "241": {
+        "datatype": "N",
+        "description": "Measurement duration in seconds",
+        "unit": "s"
+      },
+      "493": {
+        "datatype": "N",
+        "description": "Leak volume",
+        "unit": "l"
+      },
+      "494": {
+        "datatype": "N",
+        "description": "Maximum permitted leak rate",
+        "unit": "l/h"
+      },
+      "495": {
+        "datatype": "N",
+        "description": "Leak rate",
+        "unit": "l/h"
+      },
+      "496": {
+        "datatype": "N",
+        "description": "Real leak rate",
+        "unit": "l/h"
+      },
+      "497": {
+        "datatype": "N",
+        "description": "Pressure type",
+        "value_mapping": "pressure_state"
+      },
+      "498": {
+        "datatype": "N",
+        "description": "Installation type",
+        "value_mapping": "laying_type"
+      },
+      "499": {
+        "datatype": "N",
+        "description": "Volume limit",
+        "value_mapping": "volume_limit"
+      },
+      "172": {
+        "datatype": "P",
+        "description": "Result",
+        "value_mapping": "result_state"
+      }
+    },
+    "33": {
+      "23": {
+        "datatype": "D",
+        "description": "Measurement date"
+      },
+      "22": {
+        "datatype": "U",
+        "description": "Measurement time"
+      },
+      "550": {
+        "datatype": "N",
+        "description": "Low pressure",
+        "unit": "bar"
+      },
+      "551": {
+        "datatype": "N",
+        "description": "High pressure",
+        "unit": "bar"
+      },
+      "552": {
+        "datatype": "N",
+        "description": "Evaporation temperature",
+        "unit": "°C"
+      },
+      "553": {
+        "datatype": "N",
+        "description": "Condensation temperature",
+        "unit": "°C"
+      },
+      "554": {
+        "datatype": "N",
+        "description": "Superheating temperature",
+        "unit": "K"
+      },
+      "555": {
+        "datatype": "N",
+        "description": "Subcooling temperature",
+        "unit": "K"
+      },
+      "556": {
+        "datatype": "N",
+        "description": "Pressure type",
+        "value_mapping": "pressure_state"
+      },
+      "557": {
+        "datatype": "N",
+        "description": "Low-pressure temperature",
+        "unit": "°C"
+      },
+      "558": {
+        "datatype": "N",
+        "description": "High-pressure temperature",
+        "unit": "°C"
+      },
+      "559": {
+        "datatype": "N",
+        "description": "Fill quantity",
+        "unit": "g"
+      },
+      "500": {
+        "datatype": "Z",
+        "description": "Refrigerant"
+      }
+    }
+  },
+  "value_mapping": {
+    "change_state": {
+      "0": {
+        "description": "not changed"
+      },
+      "1": {
+        "description": "changed"
+      }
+    },
+    "aggregate_state": {
+      "1": {
+        "description": "liquid"
+      },
+      "2": {
+        "description": "gaseous"
+      },
+      "3": {
+        "description": "solid biogenic"
+      },
+      "4": {
+        "description": "solid fossil"
+      }
+    },
+    "fuel_id": {
+      "1": {
+        "description": "Heating oil EL"
+      },
+      "2": {
+        "description": "Natural gas"
+      },
+      "3": {
+        "description": "Town gas"
+      },
+      "4": {
+        "description": "Coke oven gas"
+      },
+      "5": {
+        "description": "Liquefied petroleum gas propane"
+      },
+      "6": {
+        "description": "Liquefied petroleum gas butane"
+      },
+      "7": {
+        "description": "Heavy fuel oil"
+      },
+      "8": {
+        "description": "Brown coal"
+      },
+      "9": {
+        "description": "Hard coal"
+      },
+      "10": {
+        "description": "Wood pellets"
+      },
+      "11": {
+        "description": "Rapeseed oil"
+      },
+      "12": {
+        "description": "Lean coal"
+      },
+      "13": {
+        "description": "Wood"
+      },
+      "14": {
+        "description": "Hard coal briquettes"
+      },
+      "15": {
+        "description": "Wood chips"
+      },
+      "16": {
+        "description": "Wood shavings"
+      },
+      "17": {
+        "description": "Grain"
+      },
+      "18": {
+        "description": "Biogas"
+      },
+      "0": {
+        "description": "Any other fuel"
+      }
+    },
+    "oil_deriv_state": {
+      "0": {
+        "description": "not checked"
+      },
+      "1": {
+        "description": "not present"
+      },
+      "2": {
+        "description": "present"
+      }
+    },
+    "boiler_load_state": {
+      "1": {
+        "description": "Part load"
+      },
+      "2": {
+        "description": "Full load"
+      }
+    },
+    "result_state": {
+      "0": {
+        "description": "Not checked, no result available"
+      },
+      "1": {
+        "description": "OK / unrestricted serviceable"
+      },
+      "2": {
+        "description": "Not OK / not serviceable"
+      },
+      "3": {
+        "description": "Conditionally OK / reduced serviceability"
+      }
+    },
+    "logical_state": {
+      "0": {
+        "description": "No"
+      },
+      "1": {
+        "description": "Yes"
+      }
+    },
+    "medium": {
+      "1": {
+        "description": "Air"
+      },
+      "2": {
+        "description": "Nitrogen / inert gas"
+      },
+      "3": {
+        "description": "Natural gas"
+      },
+      "4": {
+        "description": "Town gas"
+      },
+      "5": {
+        "description": "Propane"
+      },
+      "6": {
+        "description": "Butane"
+      },
+      "7": {
+        "description": "Liquefied petroleum gas"
+      },
+      "8": {
+        "description": "Hydrogen"
+      },
+      "9": {
+        "description": "Drinking water"
+      },
+      "10": {
+        "description": "Wastewater"
+      },
+      "11": {
+        "description": "Heating water"
+      }
+    },
+    "surface_condition": {
+      "1": {
+        "description": "Dry"
+      },
+      "2": {
+        "description": "Wet"
+      }
+    },
+    "test_procedure": {
+      "0": {
+        "description": "No special procedure"
+      },
+      "1": {
+        "description": "Procedure LA"
+      },
+      "2": {
+        "description": "Procedure LB"
+      },
+      "3": {
+        "description": "Procedure LC"
+      },
+      "4": {
+        "description": "Procedure LD"
+      }
+    },
+    "pressure_state": {
+      "0": {
+        "description": "Relative pressure"
+      },
+      "1": {
+        "description": "Absolute pressure"
+      }
+    },
+    "laying_type": {
+      "0": {
+        "description": "Above ground"
+      },
+      "1": {
+        "description": "Underground"
+      }
+    },
+    "volume_limit": {
+      "0": {
+        "description": "< 100 l"
+      },
+      "1": {
+        "description": "< 250 l"
+      },
+      "2": {
+        "description": "< 500 l"
+      },
+      "3": {
+        "description": "> 500 l"
+      },
+      "4": {
+        "description": "< 1000 l"
+      },
+      "5": {
+        "description": "> 1000 l"
+      }
+    },
+    "unit": {
+      "0": {
+        "description": "No Unit"
+      },
+      "1": {
+        "description": "°C"
+      },
+      "2": {
+        "description": "°F"
+      },
+      "3": {
+        "description": "Volumen-%"
+      },
+      "4": {
+        "description": "ppm"
+      },
+      "5": {
+        "description": "mg"
+      },
+      "6": {
+        "description": "mg/m³"
+      },
+      "7": {
+        "description": "kg/kg"
+      },
+      "8": {
+        "description": "kg/m³"
+      },
+      "9": {
+        "description": "mbar"
+      },
+      "10": {
+        "description": "hPa"
+      },
+      "11": {
+        "description": "Pa"
+      },
+      "12": {
+        "description": "psi"
+      },
+      "13": {
+        "description": "mmH2O"
+      },
+      "14": {
+        "description": "Inch WC"
+      },
+      "15": {
+        "description": "bar"
+      },
+      "16": {
+        "description": "mH2O"
+      },
+      "17": {
+        "description": "mg/kWh"
+      },
+      "18": {
+        "description": "%"
+      },
+      "19": {
+        "description": "l/h"
+      },
+      "20": {
+        "description": "m³/h"
+      },
+      "21": {
+        "description": "kPa"
+      },
+      "22": {
+        "description": "m/s"
+      },
+      "23": {
+        "description": "l/s"
+      },
+      "24": {
+        "description": "cfm"
+      },
+      "25": {
+        "description": "ft/min"
+      },
+      "26": {
+        "description": "Inch Hg"
+      },
+      "27": {
+        "description": "m³/s"
+      },
+      "28": {
+        "description": "ft/s"
+      },
+      "29": {
+        "description": "l/(s*m²)"
+      },
+      "30": {
+        "description": "l/min"
+      },
+      "31": {
+        "description": "cm²"
+      },
+      "32": {
+        "description": "m²"
+      },
+      "33": {
+        "description": "mg/MJ"
+      },
+      "34": {
+        "description": "sl"
+      },
+      "35": {
+        "description": "m³"
+      },
+      "36": {
+        "description": "s"
+      },
+      "37": {
+        "description": "g/kWh"
+      },
+      "38": {
+        "description": "g/GJ"
+      },
+      "39": {
+        "description": "lbs/mmBTU"
+      },
+      "40": {
+        "description": "kW"
+      },
+      "41": {
+        "description": "W/(m² K)"
+      },
+      "42": {
+        "description": "m"
+      },
+      "43": {
+        "description": "l"
+      },
+      "45": {
+        "description": "g"
+      },
+      "50": {
+        "description": "g/m³"
+      },
+      "53": {
+        "description": "lbs/lb"
+      },
+      "54": {
+        "description": "lbs/cft"
+      },
+      "56": {
+        "description": "MPa"
+      },
+      "57": {
+        "description": "ml"
+      },
+      "58": {
+        "description": "min"
+      },
+      "59": {
+        "description": "mm"
+      },
+      "60": {
+        "description": "µmol/mol"
+      },
+      "61": {
+        "description": "mol/mol * 10^(-2)"
+      },
+      "63": {
+        "description": "K"
+      }
+    }
+  }
+}
