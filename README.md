@@ -186,6 +186,58 @@ If the QR code contains multiple measurements, another line with field number 5 
 
 ```
 
+### Example measurement with Wöhler M603
+The following example shows a measurement performed with a Wöhler M603 (Korean version KR 1.04).
+A leak test was performed on a gas pipe.
+
+The image ([link-to-image](#measurement-configuration)) shows the measurement configuration on the Wöhler M603.
+The next image ([link-to-image](#measurement)) shows the measurement process.
+The next image ([link-to-image](#measurement-results)) shows the measurement results displayed after the measurement.
+The measurement data menu provides an option to generate a QR code for the measurement. The image ([link-to-image](#qr-code)) shows the QR code.
+
+The Wöhler Report app ([Play Store](https://play.google.com/store/apps/details?id=com.woehler.reportapp&pcampaignid=web_share), [App Store](https://apps.apple.com/de/app/w%C3%B6hler-report/id6758101959)) can create a measurement report from the QR code.
+The measurement report for this example can be found in the `pdf` folder. ([link-to-pdf](pdf/leak_test.pdf))
+
+The QR code contains the following data:
+```txt
+1G2                 # General field number: start of transmission, protocol version 2
+3G1                 # General field number: total number of QR codes required for the transmission
+4G1                 # General field number: number of the current QR code
+5G1                 #  \    Section number indicating which section follows (here: 1 = device information)
+100GWöhler          #  |    Field number 100, data type Z: device manufacturer: Wöhler
+101GM 603           #  |    Field number 101, data type Z: device type: M 603
+108GKR 1.04         #  |    Field number 108, data type Z: software version: KR 1.04
+102G333             #  |    Field number 102, data type Z: device serial number: 333
+105G20000101        #  |    Field number 105, data type D: date of last inspection: 2000-01-01
+109G21              #  /    Field number 109, data type N: Wöhler unit identifier: 21 (form value_mapping: kPa)
+5G21                #  \    Section number indicating which section follows (here: 21 = leak test on gas pipes)
+23G20260827         #  |    Field number 23, data type D: measurement date: 2026-08-27
+22G13:29            #  |    Field number 22, data type U: measurement time: 13:29
+450G150             #  |    Field number 450, data type N: preset test pressure: 150 hPa
+453G240             #  |    Field number 453, data type N: preset test duration: 240 s
+480G600             #  |    Field number 480, data type N: stabilization or settling duration: 600 s
+241G240             #  |    Field number 241, data type N: measurement duration: 240 s
+481G166.56          #  |    Field number 481, data type N: start pressure: 166.56 hPa
+484G163.36          #  |    Field number 484, data type N: stop pressure: 163.36 hPa
+487G3.2             #  |    Field number 487, data type N: pressure drop: 3.2 hPa
+172G1               #  |    Field number 172, data type P: result: 1 = OK / unrestricted serviceable
+445G7s166.56    31s166.22   55s165.79   79s165.4    103s165.04  127s164.73  151s164.43  175s164.13  199s163.85  223s163.58  247s163.36 #  /    Field number 445, data type L: pressure measurements in hPa at the specified seconds after the start of the measurement (field number 22 --> measurement time 13:29) 13:29:07 -> 166.56 hPa, 13:29:31 -> 166.22 hPa, 13:29:55 -> 165.79 hPa, 13:30:19 -> 165.4 hPa, 13:30:43 -> 165.04 hPa, 13:31:07 -> 164.73 hPa, 13:31:31 -> 164.43 hPa, 13:31:55 -> 164.13 hPa, 13:32:19 -> 163.85 hPa, 13:32:43 -> 163.58 hPa, 13:33:07 -> 163.36 hPa
+20G                 # General field number (without payload): end of transmission
+
+```
+
+#### Measurement configuration
+![measurement configuration](images/measurement-configuration.png)
+
+#### Measurement
+![measurement](images/measurement.png)
+
+#### Measurement results
+![measurement results](images/measurement-results.png)
+
+#### QR Code
+![QR Code](images/qr-code.png)
+
 ___
 ## JSON Consistency Check
 The JSON files are the important part of this repository. The repository is included as a submodule in other projects, where the JSON files provide the field-name definitions.
