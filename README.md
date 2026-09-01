@@ -10,6 +10,11 @@ A validity marker is inserted between the field number and the payload.
 The validity marker is a single letter.
 The meaning of the individual letters is described in the "Validity markers" table.
 
+The main part of the QR code contains the measurement data.
+Measurement data from different measurements is organized into sections, each identified by a section number.
+A new section begins with field number 5, followed by a validity marker and the section number as the payload.
+All subsequent lines belong to this section until another field number 5 appears or the transmission ends.
+
 Every line of text in the QR code has the same structure.
 Each line starts with a field number, followed by a validity marker and the payload.
 The only exception is the last line, which starts with field number 20.
