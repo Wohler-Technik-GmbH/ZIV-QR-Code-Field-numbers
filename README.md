@@ -1,26 +1,24 @@
 # Data Structure of the Woehler QR Code
 
 ## General Structure
+Every line of text in the QR code follows the same structure.
+Each line begins with a field number, followed by a validity marker and the payload.
+The validity marker is inserted between the field number and the payload and consists of a single letter.
+The meaning of each letter is described in the "Validity markers" table.
+The only exception is the last line, which begins with field number 20.
+This line has no payload and marks the end of the transmission.
+All lines end with the line feed character (LF, ASCII 0x0A, `\n`).
+The payload may also contain an LF. In this case, the LF is replaced with the string `\n`.
+
 Every QR code has the same basic structure.
 The first few field numbers, as well as the last field number, are general field numbers.
 They are the same in every QR code.
 The order and presence of the general field numbers can be used to verify the QR code's general validity.
 
-A validity marker is inserted between the field number and the payload.
-The validity marker is a single letter.
-The meaning of the individual letters is described in the "Validity markers" table.
-
 The main part of the QR code contains the measurement data.
 Measurement data from different measurements is organized into sections, each identified by a section number.
 A new section begins with field number 5, followed by a validity marker and the section number as the payload.
 All subsequent lines belong to this section until another field number 5 appears or the transmission ends.
-
-Every line of text in the QR code has the same structure.
-Each line starts with a field number, followed by a validity marker and the payload.
-The only exception is the last line, which starts with field number 20.
-This line has no payload and signals the end of the transmission.
-All lines are terminated by the line feed character (LF, ASCII 0x0A, `\n`).
-The payload may also contain an LF. In this case, the LF is replaced by the string "\n".
 
 The general field numbers are described in the JSON file under `general_field`.
 The data types of the field numbers are described in the JSON file under `datatype`.
