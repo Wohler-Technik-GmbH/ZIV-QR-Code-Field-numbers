@@ -1511,6 +1511,11 @@
         "datatype": "Z",
         "description": "Reglernummer"
       },
+      "445": {
+        "datatype": "L",
+        "description": "Liste mit Druckmessungen",
+        "unit": "hPa"
+      },
       "450": {
         "datatype": "N",
         "description": "Vorgegebener Prüfdruck",

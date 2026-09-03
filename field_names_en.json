@@ -1511,6 +1511,11 @@
         "datatype": "Z",
         "description": "Regulator number"
       },
+      "445": {
+        "datatype": "L",
+        "description": "List of pressure measurements",
+        "unit": "hPa"
+      },
       "450": {
         "datatype": "N",
         "description": "Preset test pressure",
